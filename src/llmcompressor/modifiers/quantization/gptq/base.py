@@ -226,7 +226,7 @@ class GPTQModifier(Modifier, HooksMixin):
         model_name = state.model.__class__.__name__
         input_names = state.data.calib.dataset.column_names
         unfixable_errors = (
-            torch.OutOfMemoryError,
+            torch.cuda.OutOfMemoryError,
             torch._C._LinAlgError,
             KeyboardInterrupt,
         )

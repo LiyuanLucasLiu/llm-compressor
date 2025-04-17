@@ -1,0 +1,19 @@
+# Host machine: docker run -it -p 8888:8888 image:version
+
+# Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+
+# Host machine access this url : localhost:8888/tree‌​
+
+# When you are logging in for the first time there will be a link displayed on the terminal to log on with a token.
+
+docker run \
+    --gpus all \
+    --name quant \
+    --shm-size=10g \
+    -p 9999:8888 \
+    --ipc=host \
+    --ulimit memlock=-1 \
+    --ulimit stack=67108864 \
+    -v /home/lucliu/projects/:/code/ \
+    -e NCCL_P2P_LEVEL=NVL \
+    -it nvcr.io/nvidia/pytorch:24.03-py3 
