@@ -4,8 +4,12 @@ import torch
 import shutil
 
 def linear(from_p, profile):
-    return (from_p * profile['beta'] + profile['alpha']).to(dtype=profile['type'])
-    
+    shifted = from_p * profile['beta'] + profile['alpha']
+    if profile['type'] == torch.int8:
+        return shifted.clamp(min=-128, max=127).to(torch.int8)
+    else:
+        return shifted.to(profile['type'])
+        
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Profile a model with quantization")
     parser.add_argument("--model", type=str, required=True, help="Name of the model to profile")
@@ -24,7 +28,9 @@ if __name__ == "__main__":
     param = {k: v for k, v in m.named_parameters()}
     qparam = {k: v for k, v in qmodel.named_parameters()}
     
-    for k, v in profile.items():
+    for k, v in profile.items():    
+        if v['type'] != torch.int8:
+            print(f'name: {k}, type: {v["type"]}')
         qparam[k].data = linear(param[k], v)
     
     # Save the quantized model
