@@ -1,6 +1,6 @@
 # Host machine: docker run -it -p 8888:8888 image:version
 
-# Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+# Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root ./
 
 # Host machine access this url : localhost:8888/tree‌​
 

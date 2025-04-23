@@ -30,12 +30,14 @@ if __name__ == "__main__":
     
     for k, v in profile.items():    
         if v['type'] != torch.int8:
-            print(f'name: {k}, type: {v["type"]}')
-        qparam[k].data = linear(param[k], v)
+            nd = linear(param[k], v)
+            diff = (nd - qparam[k].data).norm()
+            print(f'name: {k}, type: {v["type"]}, diff: {diff}, norm: {nd.norm()}')
+            qparam[k].data = linear(param[k], v)
     
     # Save the quantized model
     qmodel.load_state_dict(qparam)
-    qmodel.save_pretrained(args.save_to, save_compressed=True)
+    qmodel.save_pretrained(args.save_to)
     tokenizer.save_pretrained(args.save_to)
     shutil.copy(args.quantized_model + "/recipe.yaml", args.save_to + "/recipe.yaml")
     shutil.copy(args.quantized_model + "/config.json", args.save_to + "/config.json")
