@@ -16,4 +16,4 @@ lighteval vllm "model_name=./DeepSeek-R1-Distill-Qwen-7B-W8A8-onthefly-stable,ma
 
 lighteval vllm "model_name=./AReaL-boba-RL-7B-W8A8-onthefly-base,max_model_length=32768,max_num_batched_tokens=32768,data_parallel_size=2,generation_parameters={max_new_tokens:32768,temperature:0.6,top_p:0.95}" "lighteval|aime24|0|0" --use-chat-template --output-dir output/boba7b-w8a8-onthefly-base
 
-lighteval vllm "model_name=./DeepSeek-R1-Distill-Qwen-7B-W8A8-onthefly-base,max_model_length=32768,max_num_batched_tokens=32768,data_parallel_size=2,tensor_parallel_size=1,generation_parameters={max_new_tokens:32768,temperature:0.6,top_p:0.95}" "lighteval|aime24|0|0" --use-chat-template --output-dir output/qwen7b-r1-w8a8-onthefly-base
+lighteval vllm "model_name=./DeepSeek-R1-Distill-Qwen-7B-W8A8-onthefly-base,max_model_length=32768,max_num_batched_tokens=32768,data_parallel_size=1,tensor_parallel_size=1,generation_parameters={max_new_tokens:32768,temperature:0.6,top_p:0.95}" "lighteval|aime24|0|0" --use-chat-template --output-dir output/qwen7b-r1-w8a8-onthefly-base

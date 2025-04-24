@@ -8,17 +8,29 @@
 
 # git clone https://github.com/Dao-AILab/flash-attention && cd flash-attention && git checkout v2.7.0.post2 && FLASH_ATTENTION_FORCE_BUILD=TRUE pip install .
 
+# docker run \
+#     --gpus all \
+#     --name quant2 \
+#     --shm-size=10g \
+#     -p 9999:8888 \
+#     --ipc=host \
+#     --ulimit memlock=-1 \
+#     --ulimit stack=67108864 \
+#     -v /home/lucliu/projects/:/code/ \
+#     -e NCCL_P2P_LEVEL=NVL \
+#     -it customized_nvcr:24.10_fa2.7.0_vllm0.6.6.post1
+    
 docker run \
     --gpus all \
-    --name quant2 \
+    --name speed \
     --shm-size=10g \
-    -p 9999:8888 \
     --ipc=host \
     --ulimit memlock=-1 \
     --ulimit stack=67108864 \
     -v /home/lucliu/projects/:/code/ \
     -e NCCL_P2P_LEVEL=NVL \
-    -it customized_nvcr:24.10_fa2.7.0_vllm0.6.6.post1
+    -it whatcanyousee/verl:ngc-th2.6.0-cu124-vllm0.8.2-mcore0.11.0-te2.0
+    
     
 # -it nvcr.io/nvidia/pytorch:24.10-py3 
 
