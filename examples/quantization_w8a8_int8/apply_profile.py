@@ -4,9 +4,9 @@ import torch
 import shutil
 
 def linear(from_p, profile):
-    shifted = from_p * profile['beta'] + profile['alpha']
+    shifted = from_p * profile['input_scale'] / profile['output_scale']
     if profile['type'] == torch.int8:
-        return shifted.clamp(min=-128, max=127).to(torch.int8)
+        return torch.round(shifted).clamp(min=-128, max=127).to(torch.int8)
     else:
         return shifted.to(profile['type'])
         
@@ -28,12 +28,12 @@ if __name__ == "__main__":
     param = {k: v for k, v in m.named_parameters()}
     qparam = {k: v for k, v in qmodel.named_parameters()}
     
-    for k, v in profile.items():    
-        if v['type'] != torch.int8:
-            nd = linear(param[k], v)
-            diff = (nd - qparam[k].data).norm()
-            print(f'name: {k}, type: {v["type"]}, diff: {diff}, norm: {nd.norm()}')
-            qparam[k].data = linear(param[k], v)
+    for k, v in profile.items():
+        nd = linear(param[k], v)
+        diff = (nd - qparam[k].data).float().norm()
+        pn = qparam[k].float().norm()
+        print(f'name: {k}, type: {v["type"]}, ratio: {diff / pn}, diff: {diff}, norm: {pn}')
+        qparam[k].data = linear(param[k], v)
     
     # Save the quantized model
     qmodel.load_state_dict(qparam)

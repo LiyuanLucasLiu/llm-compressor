@@ -26,19 +26,34 @@ if __name__ == "__main__":
     
     profile = dict()
     
+    param = {k: v for k, v in m.named_parameters()}
     qparam = {k: v for k, v in qmodel.named_parameters()}
-    for k, v in m.named_parameters():
-        if torch.is_floating_point(qparam[k].data) or torch.is_complex(qparam[k].data):
+    
+    match_dict = {
+        'self_attn.q_proj': 'input_layernorm',
+        'self_attn.k_proj': 'input_layernorm',
+        'self_attn.v_proj': 'input_layernorm',
+        'mlp.gate_proj': 'post_attention_layernorm',
+        'mlp.up_proj': 'post_attention_layernorm',
+    }
+    for k, v in param.items():
+        if not (torch.is_floating_point(qparam[k].data) or torch.is_complex(qparam[k].data)):
+            input_scale = 1.
+            for balance, smooth, in match_dict.items():
+                if balance in k:
+                    layernorm_name = k.replace(balance, smooth)
+                    input_scale = param[layernorm_name] / qparam[layernorm_name].view(1, -1)
+                    break
+        
             profile[k] = {
-                'beta': 1.0, 
-                'alpha': 0.0,
+                'input_scale': input_scale,
+                'output_scale': qparam[k+'_scale'].view(-1, 1),
                 'type': qparam[k].data.dtype,
             }
-        else:
-            beta, alpha = least_square(v, qparam[k])
+        elif 'layernorm' in k: 
             profile[k] = {
-                'beta': beta, 
-                'alpha': alpha,
+                'input_scale': qparam[k] / param[k],
+                'output_scale': 1.,
                 'type': qparam[k].data.dtype,
             }
     
