@@ -1,0 +1,88 @@
+
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+
+description: Verify Run
+
+target:
+  service: sing
+  name: msrresrchvc
+  workspace_name: wsstructured
+
+environment:
+  image: verl:ngc-th2.6.0-cu124-vllm0.8.2-mcore0.11.0-te2.0
+  # image: customized_nvcr:nvidia24.03-ds0.14.1.b-fa2.5.6-te1.6.0.beta1-mb0.5.1.b-gg.b-20240329
+  username: structureddl
+  registry: structureddl.azurecr.io
+  setup:
+    - set -e -o xtrace
+    - export PATH=/home/$$USER/.local/bin:$$PATH
+
+storage:
+  output:
+    storage_account_name: aimsmoemaincac
+    container_name: experiments
+
+code:
+  local_dir: ./
+
+jobs:
+
+  - name: tp4-a100-32b
+    sku: 1x80G4-A100
+    sla_tier: Premium
+    process_count_per_node: 1
+    mpi: False
+    identity: managed
+    command:
+      - bash profile_model.sh deepseek-ai/DeepSeek-R1-Distill-Qwen-32B 4
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w8a8 4
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16 4
+    submit_args:
+      max_attempts: 10
+      env:
+        DATASET_MOUNT_BLOCK_BASED_CACHE_ENABLED: True
+        SHARED_MEMORY_PERCENT: 0.8
+        _AZUREML_SINGULARITY_JOB_UAI: /subscriptions/2cd190bb-b42a-477c-b1bb-2f20932d8dc5/resourcegroups/structured/providers/Microsoft.ManagedIdentity/userAssignedIdentities/uaistructured
+      container_args:
+        shm_size: 256g
+
+
+  - name: tp2-a100-32b
+    sku: 1x80G2-A100
+    sla_tier: Premium
+    process_count_per_node: 1
+    mpi: False
+    identity: managed
+    command:
+      - bash profile_model.sh deepseek-ai/DeepSeek-R1-Distill-Qwen-32B 2
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w8a8 2
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16 2
+    submit_args:
+      max_attempts: 10
+      env:
+        DATASET_MOUNT_BLOCK_BASED_CACHE_ENABLED: True
+        SHARED_MEMORY_PERCENT: 0.8
+        _AZUREML_SINGULARITY_JOB_UAI: /subscriptions/2cd190bb-b42a-477c-b1bb-2f20932d8dc5/resourcegroups/structured/providers/Microsoft.ManagedIdentity/userAssignedIdentities/uaistructured
+      container_args:
+        shm_size: 256g
+
+
+  - name: tp1-a100-32b
+    sku: 1x80G1-A100
+    sla_tier: Premium
+    process_count_per_node: 1
+    mpi: False
+    identity: managed
+    command:
+      - bash profile_model.sh deepseek-ai/DeepSeek-R1-Distill-Qwen-32B 1
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w8a8 1
+      - bash profile_model.sh RedHatAI/DeepSeek-R1-Distill-Qwen-32B-quantized.w4a16 1
+    submit_args:
+      max_attempts: 10
+      env:
+        DATASET_MOUNT_BLOCK_BASED_CACHE_ENABLED: True
+        SHARED_MEMORY_PERCENT: 0.8
+        _AZUREML_SINGULARITY_JOB_UAI: /subscriptions/2cd190bb-b42a-477c-b1bb-2f20932d8dc5/resourcegroups/structured/providers/Microsoft.ManagedIdentity/userAssignedIdentities/uaistructured
+      container_args:
+        shm_size: 256g

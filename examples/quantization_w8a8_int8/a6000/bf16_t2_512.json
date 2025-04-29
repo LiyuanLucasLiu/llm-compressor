@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "num_prompts": 512,
+  "tensor_parallel_size": 2,
+  "gpu_memory_utilization": 0.95,
+  "input_tokens": 34149,
+  "output_tokens": 226272,
+  "total_tokens": 260421,
+  "elapsed_time_seconds": 34.314571380615234,
+  "tokens_per_second": 7589.224912980127,
+  "prompts_per_second": 14.920775035215382
+}

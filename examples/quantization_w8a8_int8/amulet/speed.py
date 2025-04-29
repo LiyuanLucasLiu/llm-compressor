@@ -177,13 +177,13 @@ def main():
     )
     
     # Display results
-    print("\nBenchmark Results:")
-    print(f"  Total elapsed time: {results['elapsed_time_seconds']:.2f} seconds")
-    print(f"  Throughput: {results['tokens_per_second']:.2f} tokens/second")
-    print(f"  Prompts per second: {results['prompts_per_second']:.2f}")
-    print(f"  Input tokens: {results['input_tokens']}")
-    print(f"  Output tokens: {results['output_tokens']}")
-    print(f"  Total tokens: {results['total_tokens']}")
+    print("\n######Benchmark Results:")
+    print(f"######  Total elapsed time: {results['elapsed_time_seconds']:.2f} seconds")
+    print(f"######  Throughput: {results['tokens_per_second']:.2f} tokens/second")
+    print(f"######  Prompts per second: {results['prompts_per_second']:.2f}")
+    print(f"######  Input tokens: {results['input_tokens']}")
+    print(f"######  Output tokens: {results['output_tokens']}")
+    print(f"######  Total tokens: {results['total_tokens']}")
     
     # Save results to file
     with open(args.output_file, 'w') as f:

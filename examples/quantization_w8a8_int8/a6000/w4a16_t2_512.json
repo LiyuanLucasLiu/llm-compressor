@@ -1,0 +1,12 @@
+{
+  "model_name": "neuralmagic/DeepSeek-R1-Distill-Qwen-7B-quantized.w4a16",
+  "num_prompts": 512,
+  "tensor_parallel_size": 2,
+  "gpu_memory_utilization": 0.95,
+  "input_tokens": 34149,
+  "output_tokens": 225373,
+  "total_tokens": 259522,
+  "elapsed_time_seconds": 34.24264693260193,
+  "tokens_per_second": 7578.9117736956505,
+  "prompts_per_second": 14.952115150669973
+}

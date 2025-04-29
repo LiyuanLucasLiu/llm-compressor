@@ -1,0 +1,12 @@
+{
+  "model_name": "RedHatAI/DeepSeek-R1-Distill-Qwen-7B-quantized.w8a8",
+  "num_prompts": 512,
+  "tensor_parallel_size": 2,
+  "gpu_memory_utilization": 0.95,
+  "input_tokens": 34149,
+  "output_tokens": 226162,
+  "total_tokens": 260311,
+  "elapsed_time_seconds": 26.32558822631836,
+  "tokens_per_second": 9888.136126803065,
+  "prompts_per_second": 19.448758204313954
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "casperhansen/deepseek-r1-distill-qwen-7b-awq",
+  "num_prompts": 128,
+  "tensor_parallel_size": 2,
+  "gpu_memory_utilization": 0.95,
+  "input_tokens": 8273,
+  "output_tokens": 342629,
+  "total_tokens": 350902,
+  "elapsed_time_seconds": 90.67183709144592,
+  "tokens_per_second": 3870.021952308105,
+  "prompts_per_second": 1.4116842021289062
+}
