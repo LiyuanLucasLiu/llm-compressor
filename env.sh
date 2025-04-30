@@ -22,7 +22,7 @@
     
 docker run \
     --gpus all \
-    --name speed \
+    --name speed2 \
     --shm-size=10g \
     --ipc=host \
     --ulimit memlock=-1 \
@@ -39,4 +39,7 @@ docker run \
 
 # pip install opencv-fixer==0.2.5 && python -c "from opencv_fixer import AutoFix; AutoFix()"
 
-# cd /code/llm-compressor/examples/quantization_w8a8_int8# 
+# cd /code/llm-compressor/examples/quantization_w8a8_int8
+
+
+# to set up eval env, follow https://github.com/mlfoundations/evalchemy
