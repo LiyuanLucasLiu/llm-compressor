@@ -6,7 +6,8 @@ description: Verify Run
 
 target:
   service: sing
-  name: msrresrchvc
+  # name: msrresrchvc
+  name: palisades13
   workspace_name: wsstructured
 
 environment:
@@ -28,8 +29,9 @@ code:
 
 jobs:
 
-  - name: tp4-a100-32b
-    sku: 1x80G4-A100
+  - name: tp4-40g-a100-32b
+    sku: 1x40G8-A100
+    # sku: 1x80G4-A100
     sla_tier: Premium
     process_count_per_node: 1
     mpi: False
@@ -48,8 +50,9 @@ jobs:
         shm_size: 256g
 
 
-  - name: tp2-a100-32b
-    sku: 1x80G2-A100
+  - name: tp2-40g-a100-32b
+    # sku: 1x80G2-A100
+    sku: 1x40G8-A100
     sla_tier: Premium
     process_count_per_node: 1
     mpi: False
@@ -68,8 +71,9 @@ jobs:
         shm_size: 256g
 
 
-  - name: tp1-a100-32b
-    sku: 1x80G1-A100
+  - name: tp1-40g-a100-32b
+    sku: 1x40G8-A100
+    # sku: 1x80G1-A100
     sla_tier: Premium
     process_count_per_node: 1
     mpi: False

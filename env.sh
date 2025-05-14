@@ -22,12 +22,13 @@
     
 docker run \
     --gpus all \
-    --name speed2 \
+    --name speed \
     --shm-size=10g \
     --ipc=host \
     --ulimit memlock=-1 \
     --ulimit stack=67108864 \
     -v /home/lucliu/projects/:/code/ \
+    -v /home/lucliu/.cache/huggingface:/root/.cache/huggingface \
     -e NCCL_P2P_LEVEL=NVL \
     -it whatcanyousee/verl:ngc-th2.6.0-cu124-vllm0.8.2-mcore0.11.0-te2.0
     
