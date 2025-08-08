@@ -1,0 +1,704 @@
+name: model.layers.0.input_layernorm.weight, type: torch.float16, ratio: 0.020287754014134407, diff: 0.16262321174144745, norm: 8.015830993652344
+name: model.layers.0.post_attention_layernorm.weight, type: torch.float16, ratio: 0.08635199069976807, diff: 0.9886995553970337, norm: 11.449644088745117
+name: model.layers.1.input_layernorm.weight, type: torch.float16, ratio: 0.7091206908226013, diff: 4.64748477935791, norm: 6.55387020111084
+name: model.layers.1.post_attention_layernorm.weight, type: torch.float16, ratio: 0.13439656794071198, diff: 1.3246824741363525, norm: 9.856520652770996
+name: model.layers.2.input_layernorm.weight, type: torch.float16, ratio: 1.0245569944381714, diff: 8.470820426940918, norm: 8.26778793334961
+name: model.layers.2.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0011424627155065536, diff: 0.013629073277115822, norm: 11.929555892944336
+name: model.layers.3.input_layernorm.weight, type: torch.float16, ratio: 0.5161251425743103, diff: 4.754148960113525, norm: 9.211233139038086
+name: model.layers.3.post_attention_layernorm.weight, type: torch.float16, ratio: 0.02129245549440384, diff: 0.25108352303504944, norm: 11.792135238647461
+name: model.layers.4.input_layernorm.weight, type: torch.float16, ratio: 0.563096284866333, diff: 5.4871063232421875, norm: 9.744525909423828
+name: model.layers.4.post_attention_layernorm.weight, type: torch.float16, ratio: 0.001802117913030088, diff: 0.02142929472029209, norm: 11.891172409057617
+name: model.layers.5.input_layernorm.weight, type: torch.float16, ratio: 0.27842631936073303, diff: 2.8537065982818604, norm: 10.24941349029541
+name: model.layers.5.post_attention_layernorm.weight, type: torch.float16, ratio: 0.003589773550629616, diff: 0.04057794809341431, norm: 11.303762435913086
+name: model.layers.6.input_layernorm.weight, type: torch.float16, ratio: 0.05237847566604614, diff: 0.528717577457428, norm: 10.094176292419434
+name: model.layers.6.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0022275992669165134, diff: 0.02471768483519554, norm: 11.096109390258789
+name: model.layers.7.input_layernorm.weight, type: torch.float16, ratio: 0.15404394268989563, diff: 1.557138442993164, norm: 10.108404159545898
+name: model.layers.7.post_attention_layernorm.weight, type: torch.float16, ratio: 0.004362058360129595, diff: 0.04758637025952339, norm: 10.909154891967773
+name: model.layers.8.input_layernorm.weight, type: torch.float16, ratio: 0.019970295950770378, diff: 0.19305025041103363, norm: 9.6668701171875
+name: model.layers.8.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0012486644554883242, diff: 0.013246615417301655, norm: 10.608627319335938
+name: model.layers.9.input_layernorm.weight, type: torch.float16, ratio: 0.01631530560553074, diff: 0.16547970473766327, norm: 10.142605781555176
+name: model.layers.9.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0031399207655340433, diff: 0.032597944140434265, norm: 10.381772994995117
+name: model.layers.10.input_layernorm.weight, type: torch.float16, ratio: 0.01714792288839817, diff: 0.1815914660692215, norm: 10.589706420898438
+name: model.layers.10.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0025651513133198023, diff: 0.027166040614247322, norm: 10.590424537658691
+name: model.layers.11.input_layernorm.weight, type: torch.float16, ratio: 0.015621241182088852, diff: 0.16220341622829437, norm: 10.383516311645508
+name: model.layers.11.post_attention_layernorm.weight, type: torch.float16, ratio: 0.001179901068098843, diff: 0.012881900183856487, norm: 10.917779922485352
+name: model.layers.12.input_layernorm.weight, type: torch.float16, ratio: 0.030827345326542854, diff: 0.32444438338279724, norm: 10.524564743041992
+name: model.layers.12.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0012175211450085044, diff: 0.013195520266890526, norm: 10.838021278381348
+name: model.layers.13.input_layernorm.weight, type: torch.float16, ratio: 0.02207104116678238, diff: 0.22860577702522278, norm: 10.357725143432617
+name: model.layers.13.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0031441838946193457, diff: 0.0339309461414814, norm: 10.791654586791992
+name: model.layers.14.input_layernorm.weight, type: torch.float16, ratio: 0.019487475976347923, diff: 0.20564687252044678, norm: 10.552770614624023
+name: model.layers.14.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0020727538503706455, diff: 0.022423909977078438, norm: 10.818414688110352
+name: model.layers.15.input_layernorm.weight, type: torch.float16, ratio: 0.5995997190475464, diff: 6.459070205688477, norm: 10.772303581237793
+name: model.layers.15.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0006355513469316065, diff: 0.006975611671805382, norm: 10.975685119628906
+name: model.layers.16.input_layernorm.weight, type: torch.float16, ratio: 0.005833434872329235, diff: 0.06176996976137161, norm: 10.588953018188477
+name: model.layers.16.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0007204737630672753, diff: 0.007960954681038857, norm: 11.04961109161377
+name: model.layers.17.input_layernorm.weight, type: torch.float16, ratio: 0.012212992645800114, diff: 0.13260309398174286, norm: 10.857542991638184
+name: model.layers.17.post_attention_layernorm.weight, type: torch.float16, ratio: 0.011039494536817074, diff: 0.12176523357629776, norm: 11.029964447021484
+name: model.layers.18.input_layernorm.weight, type: torch.float16, ratio: 0.015196239575743675, diff: 0.16408303380012512, norm: 10.797607421875
+name: model.layers.18.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00196636444889009, diff: 0.02159183844923973, norm: 10.98058795928955
+name: model.layers.19.input_layernorm.weight, type: torch.float16, ratio: 0.05511818826198578, diff: 0.6014494299888611, norm: 10.911995887756348
+name: model.layers.19.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0004195226647425443, diff: 0.00462927483022213, norm: 11.034624099731445
+name: model.layers.20.input_layernorm.weight, type: torch.float16, ratio: 0.012064800597727299, diff: 0.12971247732639313, norm: 10.751315116882324
+name: model.layers.20.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00099555728957057, diff: 0.010982777923345566, norm: 11.03178882598877
+name: model.layers.21.input_layernorm.weight, type: torch.float16, ratio: 0.0014321801718324423, diff: 0.015738479793071747, norm: 10.989175796508789
+name: model.layers.21.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0006184024387039244, diff: 0.006824105512350798, norm: 11.035056114196777
+name: model.layers.22.input_layernorm.weight, type: torch.float16, ratio: 0.0048635900020599365, diff: 0.054160814732313156, norm: 11.135974884033203
+name: model.layers.22.post_attention_layernorm.weight, type: torch.float16, ratio: 9.590507397660986e-05, diff: 0.0010655235964804888, norm: 11.110190391540527
+name: model.layers.23.input_layernorm.weight, type: torch.float16, ratio: 0.010100371204316616, diff: 0.1136215478181839, norm: 11.249244689941406
+name: model.layers.23.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0004677056276705116, diff: 0.005238100420683622, norm: 11.199566841125488
+name: model.layers.24.input_layernorm.weight, type: torch.float16, ratio: 0.0018715329933911562, diff: 0.021077310666441917, norm: 11.262056350708008
+name: model.layers.24.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00046199304051697254, diff: 0.005181184038519859, norm: 11.214853286743164
+name: model.layers.25.input_layernorm.weight, type: torch.float16, ratio: 0.03196725249290466, diff: 0.3634208142757416, norm: 11.368534088134766
+name: model.layers.25.post_attention_layernorm.weight, type: torch.float16, ratio: 2.1227468096185476e-05, diff: 0.00023552474158350378, norm: 11.095281600952148
+name: model.layers.26.input_layernorm.weight, type: torch.float16, ratio: 0.009049994871020317, diff: 0.10123319923877716, norm: 11.185995101928711
+name: model.layers.26.post_attention_layernorm.weight, type: torch.float16, ratio: 0.003219461301341653, diff: 0.03549249842762947, norm: 11.024359703063965
+name: model.layers.27.input_layernorm.weight, type: torch.float16, ratio: 0.0007448080577887595, diff: 0.0082432571798563, norm: 11.067625999450684
+name: model.layers.27.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00012280684313736856, diff: 0.0013427734375, norm: 10.934027671813965
+name: model.layers.28.input_layernorm.weight, type: torch.float16, ratio: 0.0012059732107445598, diff: 0.013279835693538189, norm: 11.011716842651367
+name: model.layers.28.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00025169033324345946, diff: 0.00273895263671875, norm: 10.882232666015625
+name: model.layers.29.input_layernorm.weight, type: torch.float16, ratio: 0.00784798339009285, diff: 0.08562769740819931, norm: 10.91079044342041
+name: model.layers.29.post_attention_layernorm.weight, type: torch.float16, ratio: 5.5744290875736624e-05, diff: 0.000598907470703125, norm: 10.74383544921875
+name: model.layers.30.input_layernorm.weight, type: torch.float16, ratio: 0.00413596211001277, diff: 0.04480629786849022, norm: 10.833343505859375
+name: model.layers.30.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0008376808254979551, diff: 0.00890350341796875, norm: 10.628753662109375
+name: model.layers.31.input_layernorm.weight, type: torch.float16, ratio: 0.004119314253330231, diff: 0.04441465064883232, norm: 10.782050132751465
+name: model.layers.31.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0009462138987146318, diff: 0.01007080078125, norm: 10.64326000213623
+name: model.layers.32.input_layernorm.weight, type: torch.float16, ratio: 0.0017580905696377158, diff: 0.018585333600640297, norm: 10.571317672729492
+name: model.layers.32.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0006835077656432986, diff: 0.007501312997192144, norm: 10.974729537963867
+name: model.layers.33.input_layernorm.weight, type: torch.float16, ratio: 0.0033938009291887283, diff: 0.03794277831912041, norm: 11.180025100708008
+name: model.layers.33.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00015036411059554666, diff: 0.001678466796875, norm: 11.16268253326416
+name: model.layers.34.input_layernorm.weight, type: torch.float16, ratio: 0.0036661899648606777, diff: 0.04147836193442345, norm: 11.313751220703125
+name: model.layers.34.post_attention_layernorm.weight, type: torch.float16, ratio: 0.000772363506257534, diff: 0.008741378784179688, norm: 11.317700386047363
+name: model.layers.35.input_layernorm.weight, type: torch.float16, ratio: 0.008824422024190426, diff: 0.10176119953393936, norm: 11.531768798828125
+name: model.layers.35.post_attention_layernorm.weight, type: torch.float16, ratio: 0.001031427993439138, diff: 0.011882781982421875, norm: 11.520709037780762
+name: model.layers.36.input_layernorm.weight, type: torch.float16, ratio: 0.006887591909617186, diff: 0.08048954606056213, norm: 11.686166763305664
+name: model.layers.36.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00245272065512836, diff: 0.028723465278744698, norm: 11.710859298706055
+name: model.layers.37.input_layernorm.weight, type: torch.float16, ratio: 7.947106496430933e-05, diff: 0.0009530942770652473, norm: 11.992972373962402
+name: model.layers.37.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0001710817450657487, diff: 0.0020246091298758984, norm: 11.834161758422852
+name: model.layers.38.input_layernorm.weight, type: torch.float16, ratio: 0.002587235067039728, diff: 0.031510114669799805, norm: 12.179068565368652
+name: model.layers.38.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0031040834728628397, diff: 0.03753662109375, norm: 12.092658042907715
+name: model.layers.39.input_layernorm.weight, type: torch.float16, ratio: 0.0014694667188450694, diff: 0.018108675256371498, norm: 12.323297500610352
+name: model.layers.39.post_attention_layernorm.weight, type: torch.float16, ratio: 0.009034347720444202, diff: 0.10809326171875, norm: 11.964699745178223
+name: model.layers.40.input_layernorm.weight, type: torch.float16, ratio: 0.000605924054980278, diff: 0.007432549726217985, norm: 12.266470909118652
+name: model.layers.40.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0004689800553023815, diff: 0.00565338134765625, norm: 12.054630279541016
+name: model.layers.41.input_layernorm.weight, type: torch.float16, ratio: 0.0023667688947170973, diff: 0.02939855307340622, norm: 12.421387672424316
+name: model.layers.41.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0004429450782481581, diff: 0.00530242919921875, norm: 11.970849990844727
+name: model.layers.42.input_layernorm.weight, type: torch.float16, ratio: 0.0007785414927639067, diff: 0.009422997012734413, norm: 12.103397369384766
+name: model.layers.42.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0003032524837180972, diff: 0.0035845572128891945, norm: 11.820372581481934
+name: model.layers.43.input_layernorm.weight, type: torch.float16, ratio: 0.001300796284340322, diff: 0.015533447265625, norm: 11.94149112701416
+name: model.layers.43.post_attention_layernorm.weight, type: torch.float16, ratio: 0.001973746344447136, diff: 0.022979736328125, norm: 11.6427001953125
+name: model.layers.44.input_layernorm.weight, type: torch.float16, ratio: 0.0015996260335668921, diff: 0.018697435036301613, norm: 11.688629150390625
+name: model.layers.44.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0020904196426272392, diff: 0.0240478515625, norm: 11.503839492797852
+name: model.layers.45.input_layernorm.weight, type: torch.float16, ratio: 0.0028230624739080667, diff: 0.03240637853741646, norm: 11.479157447814941
+name: model.layers.45.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00039472494972869754, diff: 0.00443267822265625, norm: 11.229789733886719
+name: model.layers.46.input_layernorm.weight, type: torch.float16, ratio: 0.001748544629663229, diff: 0.019639428704977036, norm: 11.231871604919434
+name: model.layers.46.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0029370973352342844, diff: 0.0322723388671875, norm: 10.987833976745605
+name: model.layers.47.input_layernorm.weight, type: torch.float16, ratio: 6.290101737249643e-06, diff: 6.866455078125e-05, norm: 10.91628646850586
+name: model.layers.47.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0008840642403811216, diff: 0.009588241577148438, norm: 10.8456392288208
+name: model.layers.48.input_layernorm.weight, type: torch.float16, ratio: 6.396226672222838e-05, diff: 0.0006817537359893322, norm: 10.658686637878418
+name: model.layers.48.post_attention_layernorm.weight, type: torch.float16, ratio: 8.838793291943148e-05, diff: 0.000934600830078125, norm: 10.573850631713867
+name: model.layers.49.input_layernorm.weight, type: torch.float16, ratio: 2.760818097158335e-05, diff: 0.00028719374677166343, norm: 10.402486801147461
+name: model.layers.49.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00012509332736954093, diff: 0.001293182373046875, norm: 10.337740898132324
+name: model.layers.50.input_layernorm.weight, type: torch.float16, ratio: 0.007962238043546677, diff: 0.08093438297510147, norm: 10.164777755737305
+name: model.layers.50.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0011607507476583123, diff: 0.0118408203125, norm: 10.201001167297363
+name: model.layers.51.input_layernorm.weight, type: torch.float16, ratio: 9.413423867954407e-06, diff: 9.312862675869837e-05, norm: 9.893172264099121
+name: model.layers.51.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0002687496889848262, diff: 0.0027294158935546875, norm: 10.155978202819824
+name: model.layers.52.input_layernorm.weight, type: torch.float16, ratio: 0.002105380641296506, diff: 0.0209323950111866, norm: 9.94233226776123
+name: model.layers.52.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0, diff: 0.0, norm: 9.988516807556152
+name: model.layers.53.input_layernorm.weight, type: torch.float16, ratio: 0.00043438546708785, diff: 0.004178129602223635, norm: 9.618483543395996
+name: model.layers.53.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0003933082043658942, diff: 0.0038909912109375, norm: 9.892982482910156
+name: model.layers.54.input_layernorm.weight, type: torch.float16, ratio: 1.6232923371717334e-05, diff: 0.00015448346675839275, norm: 9.51667594909668
+name: model.layers.54.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0007677830872125924, diff: 0.0075256614945828915, norm: 9.801806449890137
+name: model.layers.55.input_layernorm.weight, type: torch.float16, ratio: 0.0004523734387475997, diff: 0.004280144814401865, norm: 9.461529731750488
+name: model.layers.55.post_attention_layernorm.weight, type: torch.float16, ratio: 0.000808709126431495, diff: 0.007866275496780872, norm: 9.72695255279541
+name: model.layers.56.input_layernorm.weight, type: torch.float16, ratio: 0.006455162540078163, diff: 0.06073770299553871, norm: 9.409167289733887
+name: model.layers.56.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0003253666509408504, diff: 0.00315093994140625, norm: 9.684274673461914
+name: model.layers.57.input_layernorm.weight, type: torch.float16, ratio: 1.4652397112513427e-05, diff: 0.0001375408610329032, norm: 9.386919021606445
+name: model.layers.57.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0006877925479784608, diff: 0.0066454410552978516, norm: 9.66198444366455
+name: model.layers.58.input_layernorm.weight, type: torch.float16, ratio: 0.0024007055908441544, diff: 0.02196045033633709, norm: 9.14749813079834
+name: model.layers.58.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0003109007375314832, diff: 0.0029985171277076006, norm: 9.644612312316895
+name: model.layers.59.input_layernorm.weight, type: torch.float16, ratio: 0.00016905894153751433, diff: 0.0015900104772299528, norm: 9.405065536499023
+name: model.layers.59.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0012993752025067806, diff: 0.012723543681204319, norm: 9.792047500610352
+name: model.layers.60.input_layernorm.weight, type: torch.float16, ratio: 0.0002306210808455944, diff: 0.0021884131710976362, norm: 9.489215850830078
+name: model.layers.60.post_attention_layernorm.weight, type: torch.float16, ratio: 0.00012176122254459187, diff: 0.0012057581916451454, norm: 9.902645111083984
+name: model.layers.61.input_layernorm.weight, type: torch.float16, ratio: 0.0059797028079628944, diff: 0.05722112953662872, norm: 9.569226264953613
+name: model.layers.61.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0003664303512778133, diff: 0.0036644788924604654, norm: 10.000478744506836
+name: model.layers.62.input_layernorm.weight, type: torch.float16, ratio: 0.007069366052746773, diff: 0.07162957638502121, norm: 10.132390022277832
+name: model.layers.62.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0016837392468005419, diff: 0.01814594864845276, norm: 10.777173042297363
+name: model.layers.63.input_layernorm.weight, type: torch.float16, ratio: 9.307589607487898e-06, diff: 0.00010264300362905487, norm: 11.02788257598877
+name: model.layers.63.post_attention_layernorm.weight, type: torch.float16, ratio: 0.0, diff: 0.0, norm: 11.38647174835205
+name: model.layers.0.self_attn.q_proj.weight, type: torch.int8, ratio: 0.020443996414542198, diff: 1764.3126220703125, norm: 86299.7890625
+name: model.layers.0.self_attn.k_proj.weight, type: torch.int8, ratio: 0.01648198813199997, diff: 799.0469360351562, norm: 48480.01171875
+name: model.layers.0.self_attn.v_proj.weight, type: torch.int8, ratio: 0.014504872262477875, diff: 911.2913818359375, norm: 62826.5703125
+name: model.layers.0.self_attn.o_proj.weight, type: torch.int8, ratio: 0.015395253896713257, diff: 2111.873046875, norm: 137176.890625
+name: model.layers.0.mlp.gate_proj.weight, type: torch.int8, ratio: 0.02856072597205639, diff: 5205.30712890625, norm: 182254.015625
+name: model.layers.0.mlp.up_proj.weight, type: torch.int8, ratio: 0.02603052742779255, diff: 5243.35302734375, norm: 201430.921875
+name: model.layers.1.self_attn.q_proj.weight, type: torch.int8, ratio: 0.04455189406871796, diff: 1003.5043334960938, norm: 22524.392578125
+name: model.layers.1.self_attn.k_proj.weight, type: torch.int8, ratio: 0.040546804666519165, diff: 520.5804443359375, norm: 12839.0009765625
+name: model.layers.1.self_attn.v_proj.weight, type: torch.int8, ratio: 0.035199426114559174, diff: 770.3291625976562, norm: 21884.70703125
+name: model.layers.1.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01804257370531559, diff: 2434.7392578125, norm: 134944.125
+name: model.layers.1.mlp.gate_proj.weight, type: torch.int8, ratio: 0.055264487862586975, diff: 2717.2373046875, norm: 49167.87109375
+name: model.layers.1.mlp.up_proj.weight, type: torch.int8, ratio: 0.05759446322917938, diff: 3665.566650390625, norm: 63644.42578125
+name: model.layers.2.self_attn.q_proj.weight, type: torch.int8, ratio: 0.05031896382570267, diff: 1535.0638427734375, norm: 30506.666015625
+name: model.layers.2.self_attn.k_proj.weight, type: torch.int8, ratio: 0.051557328552007675, diff: 710.1021118164062, norm: 13773.05859375
+name: model.layers.2.self_attn.v_proj.weight, type: torch.int8, ratio: 0.027231847867369652, diff: 829.53662109375, norm: 30462.001953125
+name: model.layers.2.self_attn.o_proj.weight, type: torch.int8, ratio: 0.016054363921284676, diff: 2363.988037109375, norm: 147248.9375
+name: model.layers.2.mlp.gate_proj.weight, type: torch.int8, ratio: 0.04905761778354645, diff: 3140.527587890625, norm: 64017.125
+name: model.layers.2.mlp.up_proj.weight, type: torch.int8, ratio: 0.058750927448272705, diff: 5251.6259765625, norm: 89387.96875
+name: model.layers.3.self_attn.q_proj.weight, type: torch.int8, ratio: 0.04146874323487282, diff: 1891.5955810546875, norm: 45614.97265625
+name: model.layers.3.self_attn.k_proj.weight, type: torch.int8, ratio: 0.045622266829013824, diff: 850.3793334960938, norm: 18639.568359375
+name: model.layers.3.self_attn.v_proj.weight, type: torch.int8, ratio: 0.028240052983164787, diff: 909.089111328125, norm: 32191.48046875
+name: model.layers.3.self_attn.o_proj.weight, type: torch.int8, ratio: 0.015268335118889809, diff: 2331.275146484375, norm: 152686.921875
+name: model.layers.3.mlp.gate_proj.weight, type: torch.int8, ratio: 0.04876399412751198, diff: 3646.87060546875, norm: 74786.1328125
+name: model.layers.3.mlp.up_proj.weight, type: torch.int8, ratio: 0.046898938715457916, diff: 5537.38623046875, norm: 118070.609375
+name: model.layers.4.self_attn.q_proj.weight, type: torch.int8, ratio: 0.042207639664411545, diff: 1982.932373046875, norm: 46980.4140625
+name: model.layers.4.self_attn.k_proj.weight, type: torch.int8, ratio: 0.04396143555641174, diff: 885.8555297851562, norm: 20150.7421875
+name: model.layers.4.self_attn.v_proj.weight, type: torch.int8, ratio: 0.025769950821995735, diff: 922.1334228515625, norm: 35783.28125
+name: model.layers.4.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014215330593287945, diff: 2238.245849609375, norm: 157452.953125
+name: model.layers.4.mlp.gate_proj.weight, type: torch.int8, ratio: 0.045812495052814484, diff: 3947.42919921875, norm: 86164.90625
+name: model.layers.4.mlp.up_proj.weight, type: torch.int8, ratio: 0.033202558755874634, diff: 4819.052734375, norm: 145141.0
+name: model.layers.5.self_attn.q_proj.weight, type: torch.int8, ratio: 0.03278477489948273, diff: 2006.9910888671875, norm: 61217.171875
+name: model.layers.5.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03312516212463379, diff: 896.2957153320312, norm: 27057.8515625
+name: model.layers.5.self_attn.v_proj.weight, type: torch.int8, ratio: 0.02544759213924408, diff: 911.4625854492188, norm: 35817.2421875
+name: model.layers.5.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013616624288260937, diff: 2207.559326171875, norm: 162122.359375
+name: model.layers.5.mlp.gate_proj.weight, type: torch.int8, ratio: 0.04736151173710823, diff: 4267.67822265625, norm: 90108.5703125
+name: model.layers.5.mlp.up_proj.weight, type: torch.int8, ratio: 0.02594999223947525, diff: 4944.79833984375, norm: 190551.046875
+name: model.layers.6.self_attn.q_proj.weight, type: torch.int8, ratio: 0.036765165627002716, diff: 2014.07568359375, norm: 54782.171875
+name: model.layers.6.self_attn.k_proj.weight, type: torch.int8, ratio: 0.036091797053813934, diff: 899.9672241210938, norm: 24935.505859375
+name: model.layers.6.self_attn.v_proj.weight, type: torch.int8, ratio: 0.021957239136099815, diff: 925.432861328125, norm: 42147.05078125
+name: model.layers.6.self_attn.o_proj.weight, type: torch.int8, ratio: 0.012260379269719124, diff: 1969.6004638671875, norm: 160647.59375
+name: model.layers.6.mlp.gate_proj.weight, type: torch.int8, ratio: 0.06672568619251251, diff: 4211.31787109375, norm: 63113.89453125
+name: model.layers.6.mlp.up_proj.weight, type: torch.int8, ratio: 0.025067688897252083, diff: 4743.2900390625, norm: 189219.28125
+name: model.layers.7.self_attn.q_proj.weight, type: torch.int8, ratio: 0.033119045197963715, diff: 1982.7158203125, norm: 59866.3359375
+name: model.layers.7.self_attn.k_proj.weight, type: torch.int8, ratio: 0.033672869205474854, diff: 885.6551513671875, norm: 26301.744140625
+name: model.layers.7.self_attn.v_proj.weight, type: torch.int8, ratio: 0.018674565479159355, diff: 921.3777465820312, norm: 49338.64453125
+name: model.layers.7.self_attn.o_proj.weight, type: torch.int8, ratio: 0.012560447677969933, diff: 2046.96142578125, norm: 162968.828125
+name: model.layers.7.mlp.gate_proj.weight, type: torch.int8, ratio: 0.05542038381099701, diff: 4496.3095703125, norm: 81130.96875
+name: model.layers.7.mlp.up_proj.weight, type: torch.int8, ratio: 0.01734103262424469, diff: 4837.52392578125, norm: 278964.0
+name: model.layers.8.self_attn.q_proj.weight, type: torch.int8, ratio: 0.036191292107105255, diff: 1933.443359375, norm: 53422.890625
+name: model.layers.8.self_attn.k_proj.weight, type: torch.int8, ratio: 0.0356336273252964, diff: 865.391845703125, norm: 24285.818359375
+name: model.layers.8.self_attn.v_proj.weight, type: torch.int8, ratio: 0.022953910753130913, diff: 891.4970703125, norm: 38838.5703125
+name: model.layers.8.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013252276927232742, diff: 2099.044921875, norm: 158391.265625
+name: model.layers.8.mlp.gate_proj.weight, type: torch.int8, ratio: 0.04062414541840553, diff: 4481.5390625, norm: 110317.125
+name: model.layers.8.mlp.up_proj.weight, type: torch.int8, ratio: 0.015178677625954151, diff: 4881.9501953125, norm: 321632.125
+name: model.layers.9.self_attn.q_proj.weight, type: torch.int8, ratio: 0.03141730651259422, diff: 1930.8018798828125, norm: 61456.6328125
+name: model.layers.9.self_attn.k_proj.weight, type: torch.int8, ratio: 0.032839834690093994, diff: 862.1206665039062, norm: 26252.283203125
+name: model.layers.9.self_attn.v_proj.weight, type: torch.int8, ratio: 0.019278405234217644, diff: 894.9530639648438, norm: 46422.56640625
+name: model.layers.9.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013571023941040039, diff: 2119.4375, norm: 156173.734375
+name: model.layers.9.mlp.gate_proj.weight, type: torch.int8, ratio: 0.021075235679745674, diff: 4594.880859375, norm: 218022.75
+name: model.layers.9.mlp.up_proj.weight, type: torch.int8, ratio: 0.014255315996706486, diff: 4895.37158203125, norm: 343406.75
+name: model.layers.10.self_attn.q_proj.weight, type: torch.int8, ratio: 0.023825030773878098, diff: 1939.1632080078125, norm: 81391.84375
+name: model.layers.10.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02413187175989151, diff: 866.3053588867188, norm: 35898.8046875
+name: model.layers.10.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017589883878827095, diff: 896.9359130859375, norm: 50991.57421875
+name: model.layers.10.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013735680840909481, diff: 2176.464599609375, norm: 158453.34375
+name: model.layers.10.mlp.gate_proj.weight, type: torch.int8, ratio: 0.021545182913541794, diff: 4550.736328125, norm: 211218.265625
+name: model.layers.10.mlp.up_proj.weight, type: torch.int8, ratio: 0.014162580482661724, diff: 4861.1259765625, norm: 343237.3125
+name: model.layers.11.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030989110469818115, diff: 1904.53564453125, norm: 61458.22265625
+name: model.layers.11.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03155543655157089, diff: 849.7628784179688, norm: 26929.20703125
+name: model.layers.11.self_attn.v_proj.weight, type: torch.int8, ratio: 0.021322594955563545, diff: 875.0474243164062, norm: 41038.50390625
+name: model.layers.11.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014095389284193516, diff: 2192.9853515625, norm: 155581.75
+name: model.layers.11.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01851809211075306, diff: 4622.96875, norm: 249646.0625
+name: model.layers.11.mlp.up_proj.weight, type: torch.int8, ratio: 0.013614779338240623, diff: 4909.27294921875, norm: 360584.09375
+name: model.layers.12.self_attn.q_proj.weight, type: torch.int8, ratio: 0.03029804863035679, diff: 1905.202880859375, norm: 62882.03125
+name: model.layers.12.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03099779225885868, diff: 849.9794311523438, norm: 27420.64453125
+name: model.layers.12.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017403775826096535, diff: 896.3827514648438, norm: 51505.07421875
+name: model.layers.12.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01342224981635809, diff: 2116.30224609375, norm: 157671.203125
+name: model.layers.12.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015861142426729202, diff: 4707.25634765625, norm: 296779.15625
+name: model.layers.12.mlp.up_proj.weight, type: torch.int8, ratio: 0.013313203118741512, diff: 4911.21142578125, norm: 368897.8125
+name: model.layers.13.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030369453132152557, diff: 1877.1025390625, norm: 61808.90234375
+name: model.layers.13.self_attn.k_proj.weight, type: torch.int8, ratio: 0.031245309859514236, diff: 838.4354248046875, norm: 26833.9609375
+name: model.layers.13.self_attn.v_proj.weight, type: torch.int8, ratio: 0.018488043919205666, diff: 874.6644897460938, norm: 47309.73828125
+name: model.layers.13.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01412525586783886, diff: 2208.041748046875, norm: 156318.703125
+name: model.layers.13.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01584690250456333, diff: 4665.5068359375, norm: 294411.28125
+name: model.layers.13.mlp.up_proj.weight, type: torch.int8, ratio: 0.013294165953993797, diff: 4876.27978515625, norm: 366798.46875
+name: model.layers.14.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02727881819009781, diff: 1889.8529052734375, norm: 69279.1328125
+name: model.layers.14.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02834833785891533, diff: 842.9276123046875, norm: 29734.640625
+name: model.layers.14.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01735270395874977, diff: 886.0485229492188, norm: 51061.12109375
+name: model.layers.14.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013475267216563225, diff: 2169.6630859375, norm: 161010.765625
+name: model.layers.14.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016006654128432274, diff: 4664.13232421875, norm: 291387.09375
+name: model.layers.14.mlp.up_proj.weight, type: torch.int8, ratio: 0.013372917659580708, diff: 4875.46630859375, norm: 364577.59375
+name: model.layers.15.self_attn.q_proj.weight, type: torch.int8, ratio: 0.027203427627682686, diff: 1886.4835205078125, norm: 69347.2734375
+name: model.layers.15.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02857729233801365, diff: 841.26806640625, norm: 29438.33984375
+name: model.layers.15.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015169809572398663, diff: 902.8837280273438, norm: 59518.4609375
+name: model.layers.15.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013384491205215454, diff: 2164.537841796875, norm: 161719.84375
+name: model.layers.15.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016262385994195938, diff: 4641.865234375, norm: 285435.6875
+name: model.layers.15.mlp.up_proj.weight, type: torch.int8, ratio: 0.013448068872094154, diff: 4868.40087890625, norm: 362014.875
+name: model.layers.16.self_attn.q_proj.weight, type: torch.int8, ratio: 0.03148815780878067, diff: 1871.226318359375, norm: 59426.34765625
+name: model.layers.16.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03233999386429787, diff: 835.080810546875, norm: 25821.923828125
+name: model.layers.16.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01728210598230362, diff: 887.2017822265625, norm: 51336.4375
+name: model.layers.16.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01448952965438366, diff: 2226.17431640625, norm: 153640.203125
+name: model.layers.16.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015253433957695961, diff: 4695.9404296875, norm: 307861.1875
+name: model.layers.16.mlp.up_proj.weight, type: torch.int8, ratio: 0.013474475592374802, diff: 4853.37646484375, norm: 360190.375
+name: model.layers.17.self_attn.q_proj.weight, type: torch.int8, ratio: 0.027621958404779434, diff: 1881.59619140625, norm: 68119.578125
+name: model.layers.17.self_attn.k_proj.weight, type: torch.int8, ratio: 0.028019985184073448, diff: 839.4373168945312, norm: 29958.521484375
+name: model.layers.17.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017967859283089638, diff: 882.0045166015625, norm: 49087.90234375
+name: model.layers.17.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014192878268659115, diff: 2247.23486328125, norm: 158335.390625
+name: model.layers.17.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015305680222809315, diff: 4692.521484375, norm: 306586.9375
+name: model.layers.17.mlp.up_proj.weight, type: torch.int8, ratio: 0.013496503233909607, diff: 4846.6962890625, norm: 359107.5625
+name: model.layers.18.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030032608658075333, diff: 1865.714111328125, norm: 62122.9453125
+name: model.layers.18.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02910040318965912, diff: 835.5333862304688, norm: 28712.08984375
+name: model.layers.18.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01766332983970642, diff: 878.6250610351562, norm: 49742.88671875
+name: model.layers.18.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014018120244145393, diff: 2183.745361328125, norm: 155780.1875
+name: model.layers.18.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015367851592600346, diff: 4679.138671875, norm: 304475.78125
+name: model.layers.18.mlp.up_proj.weight, type: torch.int8, ratio: 0.013565370813012123, diff: 4824.4814453125, norm: 355646.84375
+name: model.layers.19.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02938743121922016, diff: 1863.8172607421875, norm: 63422.2578125
+name: model.layers.19.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02791711874306202, diff: 835.4400024414062, norm: 29925.724609375
+name: model.layers.19.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017302241176366806, diff: 881.4005737304688, norm: 50941.41015625
+name: model.layers.19.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013921190053224564, diff: 2148.37939453125, norm: 154324.40625
+name: model.layers.19.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015536671504378319, diff: 4664.17919921875, norm: 300204.53125
+name: model.layers.19.mlp.up_proj.weight, type: torch.int8, ratio: 0.013538992963731289, diff: 4824.03125, norm: 356306.5
+name: model.layers.20.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030994385480880737, diff: 1868.0947265625, norm: 60272.03515625
+name: model.layers.20.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03012987971305847, diff: 834.4578857421875, norm: 27695.361328125
+name: model.layers.20.self_attn.v_proj.weight, type: torch.int8, ratio: 0.019564345479011536, diff: 870.9954223632812, norm: 44519.52734375
+name: model.layers.20.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013902449980378151, diff: 2212.1015625, norm: 159115.953125
+name: model.layers.20.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016017233952879906, diff: 4649.869140625, norm: 290304.125
+name: model.layers.20.mlp.up_proj.weight, type: torch.int8, ratio: 0.013770054094493389, diff: 4814.42626953125, norm: 349630.15625
+name: model.layers.21.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02912994660437107, diff: 1870.6883544921875, norm: 64218.734375
+name: model.layers.21.self_attn.k_proj.weight, type: torch.int8, ratio: 0.028432173654437065, diff: 836.4616088867188, norm: 29419.544921875
+name: model.layers.21.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01926933228969574, diff: 870.7284545898438, norm: 45187.265625
+name: model.layers.21.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013855398632586002, diff: 2209.65771484375, norm: 159479.90625
+name: model.layers.21.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016370804980397224, diff: 4635.64501953125, norm: 283165.375
+name: model.layers.21.mlp.up_proj.weight, type: torch.int8, ratio: 0.013907128944993019, diff: 4808.08203125, norm: 345727.875
+name: model.layers.22.self_attn.q_proj.weight, type: torch.int8, ratio: 0.03064652346074581, diff: 1866.8995361328125, norm: 60917.171875
+name: model.layers.22.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03170723468065262, diff: 833.3216552734375, norm: 26281.75
+name: model.layers.22.self_attn.v_proj.weight, type: torch.int8, ratio: 0.0180217232555151, diff: 874.1447143554688, norm: 48505.0546875
+name: model.layers.22.self_attn.o_proj.weight, type: torch.int8, ratio: 0.0139955785125494, diff: 2203.891845703125, norm: 157470.578125
+name: model.layers.22.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01670231856405735, diff: 4605.94970703125, norm: 275767.09375
+name: model.layers.22.mlp.up_proj.weight, type: torch.int8, ratio: 0.013770731166005135, diff: 4812.3466796875, norm: 349461.96875
+name: model.layers.23.self_attn.q_proj.weight, type: torch.int8, ratio: 0.029470277950167656, diff: 1866.6767578125, norm: 63340.99609375
+name: model.layers.23.self_attn.k_proj.weight, type: torch.int8, ratio: 0.030316293239593506, diff: 833.3516845703125, norm: 27488.57421875
+name: model.layers.23.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015873365104198456, diff: 889.7432250976562, norm: 56052.58984375
+name: model.layers.23.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013947059400379658, diff: 2129.141357421875, norm: 152658.796875
+name: model.layers.23.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01671658828854561, diff: 4591.61474609375, norm: 274674.15625
+name: model.layers.23.mlp.up_proj.weight, type: torch.int8, ratio: 0.013691726140677929, diff: 4807.50048828125, norm: 351124.5
+name: model.layers.24.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030621351674199104, diff: 1867.082275390625, norm: 60973.21484375
+name: model.layers.24.self_attn.k_proj.weight, type: torch.int8, ratio: 0.030596815049648285, diff: 835.1359252929688, norm: 27294.865234375
+name: model.layers.24.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017269814386963844, diff: 883.5615234375, norm: 51162.1875
+name: model.layers.24.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01378874946385622, diff: 2186.10546875, norm: 158542.6875
+name: model.layers.24.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015779148787260056, diff: 4655.67236328125, norm: 295052.1875
+name: model.layers.24.mlp.up_proj.weight, type: torch.int8, ratio: 0.013564889319241047, diff: 4827.86865234375, norm: 355909.1875
+name: model.layers.25.self_attn.q_proj.weight, type: torch.int8, ratio: 0.029618429020047188, diff: 1863.4229736328125, norm: 62914.30859375
+name: model.layers.25.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027647025883197784, diff: 836.3408203125, norm: 30250.662109375
+name: model.layers.25.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017217477783560753, diff: 879.661865234375, norm: 51091.21484375
+name: model.layers.25.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013696449808776379, diff: 2150.856689453125, norm: 157037.53125
+name: model.layers.25.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015153683722019196, diff: 4681.73388671875, norm: 308950.21875
+name: model.layers.25.mlp.up_proj.weight, type: torch.int8, ratio: 0.013583033345639706, diff: 4803.412109375, norm: 353633.25
+name: model.layers.26.self_attn.q_proj.weight, type: torch.int8, ratio: 0.026039011776447296, diff: 1866.087646484375, norm: 71665.0703125
+name: model.layers.26.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02460022084414959, diff: 835.969482421875, norm: 33982.1953125
+name: model.layers.26.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01719053089618683, diff: 880.7173461914062, norm: 51232.703125
+name: model.layers.26.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013698169030249119, diff: 2144.56005859375, norm: 156558.15625
+name: model.layers.26.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015193568542599678, diff: 4658.7734375, norm: 306628.0
+name: model.layers.26.mlp.up_proj.weight, type: torch.int8, ratio: 0.013766014948487282, diff: 4766.3505859375, norm: 346240.40625
+name: model.layers.27.self_attn.q_proj.weight, type: torch.int8, ratio: 0.027825769037008286, diff: 1849.53564453125, norm: 66468.4453125
+name: model.layers.27.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02779814787209034, diff: 825.5695190429688, norm: 29698.724609375
+name: model.layers.27.self_attn.v_proj.weight, type: torch.int8, ratio: 0.0178315881639719, diff: 867.310791015625, norm: 48639.01171875
+name: model.layers.27.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013643505051732063, diff: 2195.29345703125, norm: 160903.921875
+name: model.layers.27.mlp.gate_proj.weight, type: torch.int8, ratio: 0.015583056956529617, diff: 4619.0361328125, norm: 296414.0
+name: model.layers.27.mlp.up_proj.weight, type: torch.int8, ratio: 0.013952362351119518, diff: 4732.896484375, norm: 339218.28125
+name: model.layers.28.self_attn.q_proj.weight, type: torch.int8, ratio: 0.030141005292534828, diff: 1845.105712890625, norm: 61215.796875
+name: model.layers.28.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03034684993326664, diff: 824.96240234375, norm: 27184.44921875
+name: model.layers.28.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017180413007736206, diff: 866.8142700195312, norm: 50453.63671875
+name: model.layers.28.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014151600189507008, diff: 2149.099365234375, norm: 151862.640625
+name: model.layers.28.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016568966209888458, diff: 4556.6181640625, norm: 275009.1875
+name: model.layers.28.mlp.up_proj.weight, type: torch.int8, ratio: 0.014135992154479027, diff: 4718.904296875, norm: 333821.9375
+name: model.layers.29.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02880251035094261, diff: 1851.6651611328125, norm: 64288.32421875
+name: model.layers.29.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02944072335958481, diff: 827.4932250976562, norm: 28107.095703125
+name: model.layers.29.self_attn.v_proj.weight, type: torch.int8, ratio: 0.0167746189981699, diff: 874.9937133789062, norm: 52161.765625
+name: model.layers.29.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014063447713851929, diff: 2140.720703125, norm: 152218.765625
+name: model.layers.29.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01636345125734806, diff: 4573.1064453125, norm: 279470.78125
+name: model.layers.29.mlp.up_proj.weight, type: torch.int8, ratio: 0.01386986207216978, diff: 4750.49365234375, norm: 342504.75
+name: model.layers.30.self_attn.q_proj.weight, type: torch.int8, ratio: 0.027391528710722923, diff: 1852.3275146484375, norm: 67624.1015625
+name: model.layers.30.self_attn.k_proj.weight, type: torch.int8, ratio: 0.028830375522375107, diff: 824.0224609375, norm: 28581.74609375
+name: model.layers.30.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015153493732213974, diff: 883.8478393554688, norm: 58326.33984375
+name: model.layers.30.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013939297758042812, diff: 2121.971923828125, norm: 152229.46875
+name: model.layers.30.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016081325709819794, diff: 4576.10205078125, norm: 284560.0
+name: model.layers.30.mlp.up_proj.weight, type: torch.int8, ratio: 0.013577060773968697, diff: 4764.6552734375, norm: 350934.21875
+name: model.layers.31.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02563551254570484, diff: 1850.62744140625, norm: 72189.9921875
+name: model.layers.31.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027825873345136642, diff: 823.1275634765625, norm: 29581.373046875
+name: model.layers.31.self_attn.v_proj.weight, type: torch.int8, ratio: 0.013881266117095947, diff: 896.6510009765625, norm: 64594.32421875
+name: model.layers.31.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01350786816328764, diff: 2138.1767578125, norm: 158291.203125
+name: model.layers.31.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01622990518808365, diff: 4546.23486328125, norm: 280114.6875
+name: model.layers.31.mlp.up_proj.weight, type: torch.int8, ratio: 0.013464142568409443, diff: 4759.65185546875, norm: 353505.75
+name: model.layers.32.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02923453599214554, diff: 1836.865478515625, norm: 62832.0390625
+name: model.layers.32.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03213883936405182, diff: 816.5096435546875, norm: 25405.697265625
+name: model.layers.32.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017231274396181107, diff: 863.12109375, norm: 50090.3828125
+name: model.layers.32.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014003288932144642, diff: 2134.177978515625, norm: 152405.484375
+name: model.layers.32.mlp.gate_proj.weight, type: torch.int8, ratio: 0.018227919936180115, diff: 4443.06396484375, norm: 243750.453125
+name: model.layers.32.mlp.up_proj.weight, type: torch.int8, ratio: 0.013212979771196842, diff: 4790.0390625, norm: 362525.28125
+name: model.layers.33.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02593349665403366, diff: 1861.6392822265625, norm: 71785.125
+name: model.layers.33.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027655601501464844, diff: 828.53125, norm: 29958.89453125
+name: model.layers.33.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017707882449030876, diff: 866.3971557617188, norm: 48927.203125
+name: model.layers.33.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014416548423469067, diff: 2204.335693359375, norm: 152903.15625
+name: model.layers.33.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01726553402841091, diff: 4508.505859375, norm: 261127.5
+name: model.layers.33.mlp.up_proj.weight, type: torch.int8, ratio: 0.013282730244100094, diff: 4803.44580078125, norm: 361630.90625
+name: model.layers.34.self_attn.q_proj.weight, type: torch.int8, ratio: 0.026468753814697266, diff: 1856.625732421875, norm: 70144.0546875
+name: model.layers.34.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02749527245759964, diff: 829.6475219726562, norm: 30174.1875
+name: model.layers.34.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017194511368870735, diff: 868.2977294921875, norm: 50498.5390625
+name: model.layers.34.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014558859169483185, diff: 2188.47607421875, norm: 150319.203125
+name: model.layers.34.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017264828085899353, diff: 4506.3544921875, norm: 261013.578125
+name: model.layers.34.mlp.up_proj.weight, type: torch.int8, ratio: 0.013528531417250633, diff: 4768.72705078125, norm: 352494.0625
+name: model.layers.35.self_attn.q_proj.weight, type: torch.int8, ratio: 0.027141312137246132, diff: 1860.229248046875, norm: 68538.6640625
+name: model.layers.35.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027804234996438026, diff: 831.5419311523438, norm: 29907.0234375
+name: model.layers.35.self_attn.v_proj.weight, type: torch.int8, ratio: 0.016959818080067635, diff: 876.2191772460938, norm: 51664.41796875
+name: model.layers.35.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01417813915759325, diff: 2142.51025390625, norm: 151113.640625
+name: model.layers.35.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017713498324155807, diff: 4494.98193359375, norm: 253760.265625
+name: model.layers.35.mlp.up_proj.weight, type: torch.int8, ratio: 0.013622554950416088, diff: 4765.33056640625, norm: 349811.8125
+name: model.layers.36.self_attn.q_proj.weight, type: torch.int8, ratio: 0.026837313547730446, diff: 1868.344970703125, norm: 69617.4375
+name: model.layers.36.self_attn.k_proj.weight, type: torch.int8, ratio: 0.0284960325807333, diff: 831.0980834960938, norm: 29165.396484375
+name: model.layers.36.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01796194352209568, diff: 867.2698364257812, norm: 48283.7421875
+name: model.layers.36.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014035262167453766, diff: 2155.551513671875, norm: 153581.140625
+name: model.layers.36.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01749960333108902, diff: 4519.44287109375, norm: 258259.71875
+name: model.layers.36.mlp.up_proj.weight, type: torch.int8, ratio: 0.013801991939544678, diff: 4754.244140625, norm: 344460.71875
+name: model.layers.37.self_attn.q_proj.weight, type: torch.int8, ratio: 0.025243185460567474, diff: 1868.7099609375, norm: 74028.296875
+name: model.layers.37.self_attn.k_proj.weight, type: torch.int8, ratio: 0.026743873953819275, diff: 831.016845703125, norm: 31073.166015625
+name: model.layers.37.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017694823443889618, diff: 869.5751953125, norm: 49142.9140625
+name: model.layers.37.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013582063838839531, diff: 2152.846435546875, norm: 158506.578125
+name: model.layers.37.mlp.gate_proj.weight, type: torch.int8, ratio: 0.018393397331237793, diff: 4478.953125, norm: 243508.75
+name: model.layers.37.mlp.up_proj.weight, type: torch.int8, ratio: 0.013968991115689278, diff: 4735.0927734375, norm: 338971.71875
+name: model.layers.38.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02506508305668831, diff: 1875.39599609375, norm: 74821.0546875
+name: model.layers.38.self_attn.k_proj.weight, type: torch.int8, ratio: 0.030111081898212433, diff: 829.3075561523438, norm: 27541.60546875
+name: model.layers.38.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017108939588069916, diff: 871.5440063476562, norm: 50940.85546875
+name: model.layers.38.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014459972269833088, diff: 2183.438232421875, norm: 150998.78125
+name: model.layers.38.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01841142773628235, diff: 4490.65234375, norm: 243905.703125
+name: model.layers.38.mlp.up_proj.weight, type: torch.int8, ratio: 0.013964480720460415, diff: 4745.376953125, norm: 339817.65625
+name: model.layers.39.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02444383129477501, diff: 1886.1259765625, norm: 77161.6328125
+name: model.layers.39.self_attn.k_proj.weight, type: torch.int8, ratio: 0.028435086831450462, diff: 833.9220581054688, norm: 29327.220703125
+name: model.layers.39.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015943137928843498, diff: 881.8622436523438, norm: 55312.96875
+name: model.layers.39.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014526999555528164, diff: 2156.49658203125, norm: 148447.484375
+name: model.layers.39.mlp.gate_proj.weight, type: torch.int8, ratio: 0.020996438339352608, diff: 4405.9814453125, norm: 209844.234375
+name: model.layers.39.mlp.up_proj.weight, type: torch.int8, ratio: 0.01440772321075201, diff: 4696.27294921875, norm: 325955.25
+name: model.layers.40.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02494010142982006, diff: 1891.36669921875, norm: 75836.3671875
+name: model.layers.40.self_attn.k_proj.weight, type: torch.int8, ratio: 0.029065128415822983, diff: 835.044921875, norm: 28730.130859375
+name: model.layers.40.self_attn.v_proj.weight, type: torch.int8, ratio: 0.016859471797943115, diff: 878.7394409179688, norm: 52121.41015625
+name: model.layers.40.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013897537253797054, diff: 2143.84228515625, norm: 154260.59375
+name: model.layers.40.mlp.gate_proj.weight, type: torch.int8, ratio: 0.02028883807361126, diff: 4429.8505859375, norm: 218339.296875
+name: model.layers.40.mlp.up_proj.weight, type: torch.int8, ratio: 0.014286181889474392, diff: 4712.8251953125, norm: 329886.96875
+name: model.layers.41.self_attn.q_proj.weight, type: torch.int8, ratio: 0.024948453530669212, diff: 1891.0645751953125, norm: 75798.8671875
+name: model.layers.41.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02833489142358303, diff: 840.5105590820312, norm: 29663.447265625
+name: model.layers.41.self_attn.v_proj.weight, type: torch.int8, ratio: 0.016934886574745178, diff: 876.7507934570312, norm: 51771.875
+name: model.layers.41.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014520484954118729, diff: 2197.038330078125, norm: 151306.125
+name: model.layers.41.mlp.gate_proj.weight, type: torch.int8, ratio: 0.0172337144613266, diff: 4518.0615234375, norm: 262164.125
+name: model.layers.41.mlp.up_proj.weight, type: torch.int8, ratio: 0.013986031524837017, diff: 4728.107421875, norm: 338059.25
+name: model.layers.42.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02273503877222538, diff: 1886.1715087890625, norm: 82963.1953125
+name: model.layers.42.self_attn.k_proj.weight, type: torch.int8, ratio: 0.024035608395934105, diff: 835.552490234375, norm: 34763.109375
+name: model.layers.42.self_attn.v_proj.weight, type: torch.int8, ratio: 0.016946416348218918, diff: 878.0945434570312, norm: 51815.94140625
+name: model.layers.42.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014094704762101173, diff: 2150.646484375, norm: 152585.421875
+name: model.layers.42.mlp.gate_proj.weight, type: torch.int8, ratio: 0.016994649544358253, diff: 4520.96630859375, norm: 266022.90625
+name: model.layers.42.mlp.up_proj.weight, type: torch.int8, ratio: 0.014454241842031479, diff: 4675.0830078125, norm: 323440.21875
+name: model.layers.43.self_attn.q_proj.weight, type: torch.int8, ratio: 0.0225721076130867, diff: 1879.9061279296875, norm: 83284.4765625
+name: model.layers.43.self_attn.k_proj.weight, type: torch.int8, ratio: 0.0243655014783144, diff: 832.729248046875, norm: 34176.5703125
+name: model.layers.43.self_attn.v_proj.weight, type: torch.int8, ratio: 0.017630772665143013, diff: 863.5247802734375, norm: 48978.26953125
+name: model.layers.43.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013847936876118183, diff: 2172.9794921875, norm: 156917.203125
+name: model.layers.43.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017087798565626144, diff: 4499.05712890625, norm: 263290.625
+name: model.layers.43.mlp.up_proj.weight, type: torch.int8, ratio: 0.01461336761713028, diff: 4643.103515625, norm: 317729.875
+name: model.layers.44.self_attn.q_proj.weight, type: torch.int8, ratio: 0.025359120219945908, diff: 1870.6121826171875, norm: 73764.8671875
+name: model.layers.44.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027509426698088646, diff: 831.0198364257812, norm: 30208.548828125
+name: model.layers.44.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01620803214609623, diff: 868.1226806640625, norm: 53561.26171875
+name: model.layers.44.self_attn.o_proj.weight, type: torch.int8, ratio: 0.0145262461155653, diff: 2139.696044921875, norm: 147298.625
+name: model.layers.44.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01992723159492016, diff: 4402.0078125, norm: 220904.140625
+name: model.layers.44.mlp.up_proj.weight, type: torch.int8, ratio: 0.015755143016576767, diff: 4558.8701171875, norm: 289357.59375
+name: model.layers.45.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02365863136947155, diff: 1892.8280029296875, norm: 80005.8125
+name: model.layers.45.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02766468934714794, diff: 837.1785888671875, norm: 30261.630859375
+name: model.layers.45.self_attn.v_proj.weight, type: torch.int8, ratio: 0.0161213930696249, diff: 873.3155517578125, norm: 54171.22265625
+name: model.layers.45.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014230916276574135, diff: 2137.066650390625, norm: 150170.703125
+name: model.layers.45.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017629370093345642, diff: 4482.71875, norm: 254275.59375
+name: model.layers.45.mlp.up_proj.weight, type: torch.int8, ratio: 0.01457531750202179, diff: 4641.3271484375, norm: 318437.46875
+name: model.layers.46.self_attn.q_proj.weight, type: torch.int8, ratio: 0.022377151995897293, diff: 1893.2213134765625, norm: 84605.109375
+name: model.layers.46.self_attn.k_proj.weight, type: torch.int8, ratio: 0.026729105040431023, diff: 832.7772827148438, norm: 31156.197265625
+name: model.layers.46.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015199584886431694, diff: 879.4242553710938, norm: 57858.4375
+name: model.layers.46.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013758557848632336, diff: 2090.322021484375, norm: 151928.859375
+name: model.layers.46.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01741631142795086, diff: 4478.1162109375, norm: 257121.953125
+name: model.layers.46.mlp.up_proj.weight, type: torch.int8, ratio: 0.014188868924975395, diff: 4655.1396484375, norm: 328083.90625
+name: model.layers.47.self_attn.q_proj.weight, type: torch.int8, ratio: 0.020572466775774956, diff: 1897.7047119140625, norm: 92244.8828125
+name: model.layers.47.self_attn.k_proj.weight, type: torch.int8, ratio: 0.026790309697389603, diff: 827.6768798828125, norm: 30894.63671875
+name: model.layers.47.self_attn.v_proj.weight, type: torch.int8, ratio: 0.014245353639125824, diff: 889.8629150390625, norm: 62466.88671875
+name: model.layers.47.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013181347399950027, diff: 2118.08984375, norm: 160688.421875
+name: model.layers.47.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017872700467705727, diff: 4445.04345703125, norm: 248705.75
+name: model.layers.47.mlp.up_proj.weight, type: torch.int8, ratio: 0.014040131121873856, diff: 4651.1650390625, norm: 331276.46875
+name: model.layers.48.self_attn.q_proj.weight, type: torch.int8, ratio: 0.021391291171312332, diff: 1896.0316162109375, norm: 88635.6796875
+name: model.layers.48.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027551651000976562, diff: 828.44189453125, norm: 30068.68359375
+name: model.layers.48.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01775829680263996, diff: 853.728271484375, norm: 48074.89453125
+name: model.layers.48.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01286489237099886, diff: 2058.07666015625, norm: 159976.203125
+name: model.layers.48.mlp.gate_proj.weight, type: torch.int8, ratio: 0.017062412574887276, diff: 4471.044921875, norm: 262040.609375
+name: model.layers.48.mlp.up_proj.weight, type: torch.int8, ratio: 0.013723422773182392, diff: 4673.060546875, norm: 340517.125
+name: model.layers.49.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02096179872751236, diff: 1891.4967041015625, norm: 90235.421875
+name: model.layers.49.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027559202164411545, diff: 824.2117309570312, norm: 29906.951171875
+name: model.layers.49.self_attn.v_proj.weight, type: torch.int8, ratio: 0.015051600523293018, diff: 869.6332397460938, norm: 57776.796875
+name: model.layers.49.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013300340622663498, diff: 2125.597412109375, norm: 159815.265625
+name: model.layers.49.mlp.gate_proj.weight, type: torch.int8, ratio: 0.018423892557621002, diff: 4414.6669921875, norm: 239616.40625
+name: model.layers.49.mlp.up_proj.weight, type: torch.int8, ratio: 0.013926687650382519, diff: 4649.09033203125, norm: 333826.0
+name: model.layers.50.self_attn.q_proj.weight, type: torch.int8, ratio: 0.022180676460266113, diff: 1892.2314453125, norm: 85309.90625
+name: model.layers.50.self_attn.k_proj.weight, type: torch.int8, ratio: 0.030376959592103958, diff: 825.59130859375, norm: 27178.20703125
+name: model.layers.50.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01784302480518818, diff: 848.6430053710938, norm: 47561.61328125
+name: model.layers.50.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013130676932632923, diff: 2126.236083984375, norm: 161928.90625
+name: model.layers.50.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01990855112671852, diff: 4373.03857421875, norm: 219656.296875
+name: model.layers.50.mlp.up_proj.weight, type: torch.int8, ratio: 0.01386740431189537, diff: 4666.87109375, norm: 336535.3125
+name: model.layers.51.self_attn.q_proj.weight, type: torch.int8, ratio: 0.022674957290291786, diff: 1889.8076171875, norm: 83343.3828125
+name: model.layers.51.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02642548643052578, diff: 832.3052368164062, norm: 31496.306640625
+name: model.layers.51.self_attn.v_proj.weight, type: torch.int8, ratio: 0.019031371921300888, diff: 848.9046020507812, norm: 44605.5390625
+name: model.layers.51.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013249529525637627, diff: 2117.560302734375, norm: 159821.546875
+name: model.layers.51.mlp.gate_proj.weight, type: torch.int8, ratio: 0.020204246044158936, diff: 4379.3974609375, norm: 216756.296875
+name: model.layers.51.mlp.up_proj.weight, type: torch.int8, ratio: 0.013909930363297462, diff: 4681.98046875, norm: 336592.65625
+name: model.layers.52.self_attn.q_proj.weight, type: torch.int8, ratio: 0.023628853261470795, diff: 1890.7562255859375, norm: 80018.9609375
+name: model.layers.52.self_attn.k_proj.weight, type: torch.int8, ratio: 0.030459323897957802, diff: 834.5795288085938, norm: 27399.8046875
+name: model.layers.52.self_attn.v_proj.weight, type: torch.int8, ratio: 0.018285110592842102, diff: 849.56103515625, norm: 46461.90234375
+name: model.layers.52.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013579337857663631, diff: 2139.405517578125, norm: 157548.59375
+name: model.layers.52.mlp.gate_proj.weight, type: torch.int8, ratio: 0.020347028970718384, diff: 4383.6884765625, norm: 215446.125
+name: model.layers.52.mlp.up_proj.weight, type: torch.int8, ratio: 0.014025455340743065, diff: 4678.27001953125, norm: 333555.65625
+name: model.layers.53.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02419457770884037, diff: 1880.5924072265625, norm: 77727.84375
+name: model.layers.53.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03036857210099697, diff: 829.5498657226562, norm: 27316.064453125
+name: model.layers.53.self_attn.v_proj.weight, type: torch.int8, ratio: 0.021996380761265755, diff: 835.7948608398438, norm: 37996.92578125
+name: model.layers.53.self_attn.o_proj.weight, type: torch.int8, ratio: 0.012595086358487606, diff: 2054.13818359375, norm: 163090.4375
+name: model.layers.53.mlp.gate_proj.weight, type: torch.int8, ratio: 0.02003307081758976, diff: 4377.728515625, norm: 218525.09375
+name: model.layers.53.mlp.up_proj.weight, type: torch.int8, ratio: 0.013808767311275005, diff: 4686.8623046875, norm: 339412.0625
+name: model.layers.54.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02192692458629608, diff: 1887.4466552734375, norm: 86078.953125
+name: model.layers.54.self_attn.k_proj.weight, type: torch.int8, ratio: 0.029575305059552193, diff: 824.8975830078125, norm: 27891.431640625
+name: model.layers.54.self_attn.v_proj.weight, type: torch.int8, ratio: 0.020969077944755554, diff: 834.3931884765625, norm: 39791.6015625
+name: model.layers.54.self_attn.o_proj.weight, type: torch.int8, ratio: 0.012574463151395321, diff: 2069.37109375, norm: 164569.34375
+name: model.layers.54.mlp.gate_proj.weight, type: torch.int8, ratio: 0.020207807421684265, diff: 4368.1640625, norm: 216162.203125
+name: model.layers.54.mlp.up_proj.weight, type: torch.int8, ratio: 0.01368863508105278, diff: 4693.14892578125, norm: 342850.03125
+name: model.layers.55.self_attn.q_proj.weight, type: torch.int8, ratio: 0.022309420630335808, diff: 1879.5491943359375, norm: 84249.125
+name: model.layers.55.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02773411199450493, diff: 827.2429809570312, norm: 29827.634765625
+name: model.layers.55.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01745082624256611, diff: 846.4862670898438, norm: 48506.9453125
+name: model.layers.55.self_attn.o_proj.weight, type: torch.int8, ratio: 0.012969381175935268, diff: 2106.10009765625, norm: 162390.171875
+name: model.layers.55.mlp.gate_proj.weight, type: torch.int8, ratio: 0.020116763189435005, diff: 4366.6474609375, norm: 217065.109375
+name: model.layers.55.mlp.up_proj.weight, type: torch.int8, ratio: 0.013780991546809673, diff: 4677.4443359375, norm: 339412.75
+name: model.layers.56.self_attn.q_proj.weight, type: torch.int8, ratio: 0.024683963507413864, diff: 1869.8243408203125, norm: 75750.5703125
+name: model.layers.56.self_attn.k_proj.weight, type: torch.int8, ratio: 0.031423941254615784, diff: 827.025390625, norm: 26318.3203125
+name: model.layers.56.self_attn.v_proj.weight, type: torch.int8, ratio: 0.020110981538891792, diff: 833.614990234375, norm: 41450.734375
+name: model.layers.56.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013272851705551147, diff: 2188.755859375, norm: 164904.71875
+name: model.layers.56.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01999702677130699, diff: 4368.0166015625, norm: 218433.3125
+name: model.layers.56.mlp.up_proj.weight, type: torch.int8, ratio: 0.013739673420786858, diff: 4679.0498046875, norm: 340550.28125
+name: model.layers.57.self_attn.q_proj.weight, type: torch.int8, ratio: 0.02150522544980049, diff: 1884.9803466796875, norm: 87652.203125
+name: model.layers.57.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027070550248026848, diff: 832.9243774414062, norm: 30768.654296875
+name: model.layers.57.self_attn.v_proj.weight, type: torch.int8, ratio: 0.02263416163623333, diff: 825.9509887695312, norm: 36491.34375
+name: model.layers.57.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013231951743364334, diff: 2170.03515625, norm: 163999.625
+name: model.layers.57.mlp.gate_proj.weight, type: torch.int8, ratio: 0.01932801865041256, diff: 4385.38916015625, norm: 226892.84375
+name: model.layers.57.mlp.up_proj.weight, type: torch.int8, ratio: 0.013829302042722702, diff: 4671.89990234375, norm: 337826.15625
+name: model.layers.58.self_attn.q_proj.weight, type: torch.int8, ratio: 0.023636598140001297, diff: 1864.3572998046875, norm: 78875.875
+name: model.layers.58.self_attn.k_proj.weight, type: torch.int8, ratio: 0.03289923444390297, diff: 820.3316650390625, norm: 24934.673828125
+name: model.layers.58.self_attn.v_proj.weight, type: torch.int8, ratio: 0.03357015922665596, diff: 808.7638549804688, norm: 24091.748046875
+name: model.layers.58.self_attn.o_proj.weight, type: torch.int8, ratio: 0.01408958900719881, diff: 2307.146484375, norm: 163748.3125
+name: model.layers.58.mlp.gate_proj.weight, type: torch.int8, ratio: 0.018851546570658684, diff: 4402.3623046875, norm: 233527.921875
+name: model.layers.58.mlp.up_proj.weight, type: torch.int8, ratio: 0.013883640058338642, diff: 4665.8115234375, norm: 336065.4375
+name: model.layers.59.self_attn.q_proj.weight, type: torch.int8, ratio: 0.025381332263350487, diff: 1862.2293701171875, norm: 73370.0390625
+name: model.layers.59.self_attn.k_proj.weight, type: torch.int8, ratio: 0.02861284464597702, diff: 831.7439575195312, norm: 29068.900390625
+name: model.layers.59.self_attn.v_proj.weight, type: torch.int8, ratio: 0.020048316568136215, diff: 827.5076904296875, norm: 41275.66796875
+name: model.layers.59.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013132424093782902, diff: 2139.561279296875, norm: 162922.03125
+name: model.layers.59.mlp.gate_proj.weight, type: torch.int8, ratio: 0.019515695050358772, diff: 4361.671875, norm: 223495.59375
+name: model.layers.59.mlp.up_proj.weight, type: torch.int8, ratio: 0.014258820563554764, diff: 4600.654296875, norm: 322653.21875
+name: model.layers.60.self_attn.q_proj.weight, type: torch.int8, ratio: 0.025449387729167938, diff: 1869.916015625, norm: 73475.875
+name: model.layers.60.self_attn.k_proj.weight, type: torch.int8, ratio: 0.032408542931079865, diff: 833.7127685546875, norm: 25725.091796875
+name: model.layers.60.self_attn.v_proj.weight, type: torch.int8, ratio: 0.01860954612493515, diff: 838.9678344726562, norm: 45082.66015625
+name: model.layers.60.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013654666021466255, diff: 2163.458740234375, norm: 158440.984375
+name: model.layers.60.mlp.gate_proj.weight, type: torch.int8, ratio: 0.022136453539133072, diff: 4320.953125, norm: 195196.265625
+name: model.layers.60.mlp.up_proj.weight, type: torch.int8, ratio: 0.015063115395605564, diff: 4553.20556640625, norm: 302275.15625
+name: model.layers.61.self_attn.q_proj.weight, type: torch.int8, ratio: 0.025329643860459328, diff: 1894.6781005859375, norm: 74800.8203125
+name: model.layers.61.self_attn.k_proj.weight, type: torch.int8, ratio: 0.032054491341114044, diff: 845.1828002929688, norm: 26367.0625
+name: model.layers.61.self_attn.v_proj.weight, type: torch.int8, ratio: 0.02040877193212509, diff: 843.2105102539062, norm: 41316.08203125
+name: model.layers.61.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013405594043433666, diff: 2117.938720703125, norm: 157989.171875
+name: model.layers.61.mlp.gate_proj.weight, type: torch.int8, ratio: 0.02534726820886135, diff: 4305.22802734375, norm: 169849.78125
+name: model.layers.61.mlp.up_proj.weight, type: torch.int8, ratio: 0.01673281006515026, diff: 4481.56005859375, norm: 267830.6875
+name: model.layers.62.self_attn.q_proj.weight, type: torch.int8, ratio: 0.026638053357601166, diff: 1898.6124267578125, norm: 71274.4453125
+name: model.layers.62.self_attn.k_proj.weight, type: torch.int8, ratio: 0.027627313509583473, diff: 854.6654052734375, norm: 30935.5234375
+name: model.layers.62.self_attn.v_proj.weight, type: torch.int8, ratio: 0.02297702245414257, diff: 837.1571044921875, norm: 36434.53515625
+name: model.layers.62.self_attn.o_proj.weight, type: torch.int8, ratio: 0.013840189203619957, diff: 2157.4091796875, norm: 155880.03125
+name: model.layers.62.mlp.gate_proj.weight, type: torch.int8, ratio: 0.028114747256040573, diff: 4308.572265625, norm: 153249.546875
+name: model.layers.62.mlp.up_proj.weight, type: torch.int8, ratio: 0.019477715715765953, diff: 4427.369140625, norm: 227304.328125
+name: model.layers.63.self_attn.q_proj.weight, type: torch.int8, ratio: 0.026256967335939407, diff: 1931.686767578125, norm: 73568.5390625
+name: model.layers.63.self_attn.k_proj.weight, type: torch.int8, ratio: 0.033417750149965286, diff: 857.6211547851562, norm: 25663.640625
+name: model.layers.63.self_attn.v_proj.weight, type: torch.int8, ratio: 0.042102135717868805, diff: 834.5076293945312, norm: 19821.029296875
+name: model.layers.63.self_attn.o_proj.weight, type: torch.int8, ratio: 0.014372595585882664, diff: 2198.21533203125, norm: 152944.90625
+name: model.layers.63.mlp.gate_proj.weight, type: torch.int8, ratio: 0.022916587069630623, diff: 4412.7978515625, norm: 192559.125
+name: model.layers.63.mlp.up_proj.weight, type: torch.int8, ratio: 0.017412476241588593, diff: 4532.9091796875, norm: 260325.375
+name: model.layers.0.mlp.down_proj.weight, type: torch.int8, ratio: 0.027336139231920242, diff: 5883.90869140625, norm: 215242.859375
+name: model.layers.1.mlp.down_proj.weight, type: torch.int8, ratio: 0.05979188531637192, diff: 4125.4443359375, norm: 68996.7265625
+name: model.layers.2.mlp.down_proj.weight, type: torch.int8, ratio: 0.030550215393304825, diff: 3605.218505859375, norm: 118009.59375
+name: model.layers.3.mlp.down_proj.weight, type: torch.int8, ratio: 0.025707406923174858, diff: 4407.56298828125, norm: 171451.09375
+name: model.layers.4.mlp.down_proj.weight, type: torch.int8, ratio: 0.026095746085047722, diff: 5547.70703125, norm: 212590.46875
+name: model.layers.5.mlp.down_proj.weight, type: torch.int8, ratio: 0.022876810282468796, diff: 5375.38720703125, norm: 234971.015625
+name: model.layers.6.mlp.down_proj.weight, type: torch.int8, ratio: 0.0239731278270483, diff: 5713.83251953125, norm: 238343.21875
+name: model.layers.7.mlp.down_proj.weight, type: torch.int8, ratio: 0.02071068435907364, diff: 5573.53955078125, norm: 269114.21875
+name: model.layers.8.mlp.down_proj.weight, type: torch.int8, ratio: 0.020427372306585312, diff: 5238.80029296875, norm: 256459.8125
+name: model.layers.9.mlp.down_proj.weight, type: torch.int8, ratio: 0.017458075657486916, diff: 4654.60986328125, norm: 266616.4375
+name: model.layers.10.mlp.down_proj.weight, type: torch.int8, ratio: 0.017363473773002625, diff: 4663.33837890625, norm: 268571.75
+name: model.layers.11.mlp.down_proj.weight, type: torch.int8, ratio: 0.017293818295001984, diff: 4792.75439453125, norm: 277136.84375
+name: model.layers.12.mlp.down_proj.weight, type: torch.int8, ratio: 0.01673392578959465, diff: 4544.07421875, norm: 271548.59375
+name: model.layers.13.mlp.down_proj.weight, type: torch.int8, ratio: 0.01718543842434883, diff: 4599.7236328125, norm: 267652.375
+name: model.layers.14.mlp.down_proj.weight, type: torch.int8, ratio: 0.01714528724551201, diff: 4573.00927734375, norm: 266721.0625
+name: model.layers.15.mlp.down_proj.weight, type: torch.int8, ratio: 0.017662208527326584, diff: 4548.1259765625, norm: 257506.0625
+name: model.layers.16.mlp.down_proj.weight, type: torch.int8, ratio: 0.017385805025696754, diff: 4556.38525390625, norm: 262075.03125
+name: model.layers.17.mlp.down_proj.weight, type: torch.int8, ratio: 0.01738380640745163, diff: 4502.45703125, norm: 259002.953125
+name: model.layers.18.mlp.down_proj.weight, type: torch.int8, ratio: 0.01787504367530346, diff: 4528.67919921875, norm: 253352.0625
+name: model.layers.19.mlp.down_proj.weight, type: torch.int8, ratio: 0.01824266090989113, diff: 4569.33740234375, norm: 250475.390625
+name: model.layers.20.mlp.down_proj.weight, type: torch.int8, ratio: 0.018398994579911232, diff: 4595.37255859375, norm: 249762.15625
+name: model.layers.21.mlp.down_proj.weight, type: torch.int8, ratio: 0.017949840053915977, diff: 4587.869140625, norm: 255593.875
+name: model.layers.22.mlp.down_proj.weight, type: torch.int8, ratio: 0.018089527264237404, diff: 4566.8310546875, norm: 252457.171875
+name: model.layers.23.mlp.down_proj.weight, type: torch.int8, ratio: 0.018213002011179924, diff: 4587.9951171875, norm: 251907.6875
+name: model.layers.24.mlp.down_proj.weight, type: torch.int8, ratio: 0.017234861850738525, diff: 4518.4287109375, norm: 262167.96875
+name: model.layers.25.mlp.down_proj.weight, type: torch.int8, ratio: 0.01689986139535904, diff: 4523.17333984375, norm: 267645.59375
+name: model.layers.26.mlp.down_proj.weight, type: torch.int8, ratio: 0.0170588456094265, diff: 4546.4951171875, norm: 266518.34375
+name: model.layers.27.mlp.down_proj.weight, type: torch.int8, ratio: 0.01750834845006466, diff: 4567.73291015625, norm: 260888.859375
+name: model.layers.28.mlp.down_proj.weight, type: torch.int8, ratio: 0.017577126622200012, diff: 4614.3408203125, norm: 262519.625
+name: model.layers.29.mlp.down_proj.weight, type: torch.int8, ratio: 0.017520181834697723, diff: 4524.412109375, norm: 258240.03125
+name: model.layers.30.mlp.down_proj.weight, type: torch.int8, ratio: 0.017085913568735123, diff: 4495.8583984375, norm: 263132.46875
+name: model.layers.31.mlp.down_proj.weight, type: torch.int8, ratio: 0.017122764140367508, diff: 4463.21923828125, norm: 260659.96875
+name: model.layers.32.mlp.down_proj.weight, type: torch.int8, ratio: 0.017610274255275726, diff: 4538.05078125, norm: 257693.359375
+name: model.layers.33.mlp.down_proj.weight, type: torch.int8, ratio: 0.0176852960139513, diff: 4543.2958984375, norm: 256896.796875
+name: model.layers.34.mlp.down_proj.weight, type: torch.int8, ratio: 0.017783144488930702, diff: 4580.35302734375, norm: 257567.109375
+name: model.layers.35.mlp.down_proj.weight, type: torch.int8, ratio: 0.017764892429113388, diff: 4607.373046875, norm: 259352.71875
+name: model.layers.36.mlp.down_proj.weight, type: torch.int8, ratio: 0.017986522987484932, diff: 4639.6201171875, norm: 257949.8125
+name: model.layers.37.mlp.down_proj.weight, type: torch.int8, ratio: 0.017867781221866608, diff: 4630.8828125, norm: 259175.03125
+name: model.layers.38.mlp.down_proj.weight, type: torch.int8, ratio: 0.018282346427440643, diff: 4651.79931640625, norm: 254442.140625
+name: model.layers.39.mlp.down_proj.weight, type: torch.int8, ratio: 0.017982913181185722, diff: 4700.06005859375, norm: 261362.5625
+name: model.layers.40.mlp.down_proj.weight, type: torch.int8, ratio: 0.018040504306554794, diff: 4613.44189453125, norm: 255726.890625
+name: model.layers.41.mlp.down_proj.weight, type: torch.int8, ratio: 0.017217975109815598, diff: 4584.2548828125, norm: 266248.1875
+name: model.layers.42.mlp.down_proj.weight, type: torch.int8, ratio: 0.019530104473233223, diff: 4541.86865234375, norm: 232557.3125
+name: model.layers.43.mlp.down_proj.weight, type: torch.int8, ratio: 0.01784021034836769, diff: 4630.56640625, norm: 259557.828125
+name: model.layers.44.mlp.down_proj.weight, type: torch.int8, ratio: 0.017772121354937553, diff: 4722.56103515625, norm: 265728.59375
+name: model.layers.45.mlp.down_proj.weight, type: torch.int8, ratio: 0.01748359203338623, diff: 4682.59033203125, norm: 267827.71875
+name: model.layers.46.mlp.down_proj.weight, type: torch.int8, ratio: 0.016844874247908592, diff: 4626.31689453125, norm: 274642.40625
+name: model.layers.47.mlp.down_proj.weight, type: torch.int8, ratio: 0.016544170677661896, diff: 4613.779296875, norm: 278876.4375
+name: model.layers.48.mlp.down_proj.weight, type: torch.int8, ratio: 0.016647081822156906, diff: 4595.43896484375, norm: 276050.71875
+name: model.layers.49.mlp.down_proj.weight, type: torch.int8, ratio: 0.017101971432566643, diff: 4663.54345703125, norm: 272690.40625
+name: model.layers.50.mlp.down_proj.weight, type: torch.int8, ratio: 0.017060639336705208, diff: 4685.86865234375, norm: 274659.625
+name: model.layers.51.mlp.down_proj.weight, type: torch.int8, ratio: 0.016686519607901573, diff: 4640.421875, norm: 278094.0625
+name: model.layers.52.mlp.down_proj.weight, type: torch.int8, ratio: 0.016933264210820198, diff: 4655.2265625, norm: 274916.0625
+name: model.layers.53.mlp.down_proj.weight, type: torch.int8, ratio: 0.016797257587313652, diff: 4591.76318359375, norm: 273363.875
+name: model.layers.54.mlp.down_proj.weight, type: torch.int8, ratio: 0.017620105296373367, diff: 4462.34912109375, norm: 253253.265625
+name: model.layers.55.mlp.down_proj.weight, type: torch.int8, ratio: 0.017189934849739075, diff: 4472.0986328125, norm: 260157.96875
+name: model.layers.56.mlp.down_proj.weight, type: torch.int8, ratio: 0.016283871605992317, diff: 4487.42431640625, norm: 275574.78125
+name: model.layers.57.mlp.down_proj.weight, type: torch.int8, ratio: 0.01743129827082157, diff: 4409.2998046875, norm: 252953.03125
+name: model.layers.58.mlp.down_proj.weight, type: torch.int8, ratio: 0.01685321144759655, diff: 4452.3828125, norm: 264186.03125
+name: model.layers.59.mlp.down_proj.weight, type: torch.int8, ratio: 0.018352096900343895, diff: 4522.40380859375, norm: 246424.359375
+name: model.layers.60.mlp.down_proj.weight, type: torch.int8, ratio: 0.01935868337750435, diff: 4693.28271484375, norm: 242438.125
+name: model.layers.61.mlp.down_proj.weight, type: torch.int8, ratio: 0.021460849791765213, diff: 4905.74169921875, norm: 228590.28125
+name: model.layers.62.mlp.down_proj.weight, type: torch.int8, ratio: 0.03338271379470825, diff: 5121.51416015625, norm: 153418.15625
+name: model.layers.63.mlp.down_proj.weight, type: torch.int8, ratio: 0.023774048313498497, diff: 5352.8388671875, norm: 225154.703125
+layernorm: model.layers.0.input_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.0.post_attention_layernorm.weight, dead_neurons_mask ct: 22.0
+layernorm: model.layers.1.input_layernorm.weight, dead_neurons_mask ct: 961.0
+layernorm: model.layers.1.post_attention_layernorm.weight, dead_neurons_mask ct: 1301.0
+layernorm: model.layers.2.input_layernorm.weight, dead_neurons_mask ct: 1410.0
+layernorm: model.layers.2.post_attention_layernorm.weight, dead_neurons_mask ct: 8.0
+layernorm: model.layers.3.input_layernorm.weight, dead_neurons_mask ct: 970.0
+layernorm: model.layers.3.post_attention_layernorm.weight, dead_neurons_mask ct: 8.0
+layernorm: model.layers.4.input_layernorm.weight, dead_neurons_mask ct: 333.0
+layernorm: model.layers.4.post_attention_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.5.input_layernorm.weight, dead_neurons_mask ct: 57.0
+layernorm: model.layers.5.post_attention_layernorm.weight, dead_neurons_mask ct: 7.0
+layernorm: model.layers.6.input_layernorm.weight, dead_neurons_mask ct: 32.0
+layernorm: model.layers.6.post_attention_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.7.input_layernorm.weight, dead_neurons_mask ct: 24.0
+layernorm: model.layers.7.post_attention_layernorm.weight, dead_neurons_mask ct: 8.0
+layernorm: model.layers.8.input_layernorm.weight, dead_neurons_mask ct: 20.0
+layernorm: model.layers.8.post_attention_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.9.input_layernorm.weight, dead_neurons_mask ct: 15.0
+layernorm: model.layers.9.post_attention_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.10.input_layernorm.weight, dead_neurons_mask ct: 9.0
+layernorm: model.layers.10.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.11.input_layernorm.weight, dead_neurons_mask ct: 8.0
+layernorm: model.layers.11.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.12.input_layernorm.weight, dead_neurons_mask ct: 9.0
+layernorm: model.layers.12.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.13.input_layernorm.weight, dead_neurons_mask ct: 10.0
+layernorm: model.layers.13.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.14.input_layernorm.weight, dead_neurons_mask ct: 9.0
+layernorm: model.layers.14.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.15.input_layernorm.weight, dead_neurons_mask ct: 6.0
+layernorm: model.layers.15.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.16.input_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.16.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.17.input_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.17.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.18.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.18.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.19.input_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.19.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.20.input_layernorm.weight, dead_neurons_mask ct: 5.0
+layernorm: model.layers.20.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.21.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.21.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.22.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.22.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.23.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.23.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.24.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.24.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.25.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.25.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.26.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.26.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.27.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.27.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.28.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.28.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.29.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.29.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.30.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.30.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.31.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.31.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.32.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.32.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.33.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.33.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.34.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.34.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.35.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.35.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.36.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.36.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.37.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.37.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.38.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.38.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.39.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.39.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.40.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.40.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.41.input_layernorm.weight, dead_neurons_mask ct: 4.0
+layernorm: model.layers.41.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.42.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.42.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.43.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.43.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.44.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.44.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.45.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.45.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.46.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.46.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.47.input_layernorm.weight, dead_neurons_mask ct: 0.0
+layernorm: model.layers.47.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.48.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.48.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.49.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.49.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.50.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.50.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.51.input_layernorm.weight, dead_neurons_mask ct: 0.0
+layernorm: model.layers.51.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.52.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.52.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.53.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.53.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.54.input_layernorm.weight, dead_neurons_mask ct: 0.0
+layernorm: model.layers.54.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.55.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.55.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.56.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.56.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.57.input_layernorm.weight, dead_neurons_mask ct: 0.0
+layernorm: model.layers.57.post_attention_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.58.input_layernorm.weight, dead_neurons_mask ct: 3.0
+layernorm: model.layers.58.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.59.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.59.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.60.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.60.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.61.input_layernorm.weight, dead_neurons_mask ct: 1.0
+layernorm: model.layers.61.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.62.input_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.62.post_attention_layernorm.weight, dead_neurons_mask ct: 2.0
+layernorm: model.layers.63.input_layernorm.weight, dead_neurons_mask ct: 0.0
+layernorm: model.layers.63.post_attention_layernorm.weight, dead_neurons_mask ct: 0.0
