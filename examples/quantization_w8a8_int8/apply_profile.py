@@ -9,6 +9,18 @@ def linear(from_p, profile):
         return torch.round(shifted).clamp(min=-128, max=127).to(torch.int8)
     else:
         return shifted.to(profile['type'])
+    
+def delete_irrelevant_parameters(model):
+    for _, module in model.named_children():
+        delete_irrelevant_parameters(module)
+    
+    param_to_delete = []
+    for name, param in model.named_parameters():
+        if '_scale' not in name:
+            param_to_delete.append(name)
+        
+    for name in param_to_delete:
+        delattr(model, name)
         
 input_linear_map = {
     'input_layernorm.weight': ['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight'],
@@ -58,6 +70,9 @@ if __name__ == "__main__":
     
     # Save the quantized model
     qmodel.load_state_dict(qparam, strict=False)
+    
+    # delete_irrelevant_parameters(qmodel)
+    
     qmodel.save_pretrained(args.save_to)
     tokenizer.save_pretrained(args.save_to)
     

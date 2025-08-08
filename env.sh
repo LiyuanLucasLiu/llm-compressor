@@ -1,6 +1,6 @@
 # Host machine: docker run -it -p 8888:8888 image:version
 
-# Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root ./
+# Inside the Container : torchrun  --standalone --nnodes=1 --nproc-per-node=1 --no-python jupyter notebook --ip 0.0.0.0 --no-browser --allow-root ./
 
 # Host machine access this url : localhost:8888/tree‌​
 
@@ -22,16 +22,18 @@
     
 docker run \
     --gpus all \
-    --name speed \
+    --name quant \
     --shm-size=10g \
     --ipc=host \
     --ulimit memlock=-1 \
     --ulimit stack=67108864 \
     -v /home/lucliu/projects/:/code/ \
     -v /home/lucliu/.cache/huggingface:/root/.cache/huggingface \
+    -v /data/lucliu/ckpts/verl_checkpoints:/code/verl/checkpoints \
     -e NCCL_P2P_LEVEL=NVL \
     -it whatcanyousee/verl:ngc-th2.6.0-cu124-vllm0.8.2-mcore0.11.0-te2.0
     
+    # -p 9999:8888 \
     
 # -it nvcr.io/nvidia/pytorch:24.10-py3 
 

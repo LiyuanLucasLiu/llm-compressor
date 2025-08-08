@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # Load the model and tokenizer
     m = AutoModelForCausalLM.from_pretrained(args.model, device_map="cpu")
-    qmodel = AutoModelForCausalLM.from_pretrained(args.quantized_model, device_map="cpu")
+    qmodel = AutoModelForCausalLM.from_pretrained(args.quantized_model)
     
     profile = dict()
     
